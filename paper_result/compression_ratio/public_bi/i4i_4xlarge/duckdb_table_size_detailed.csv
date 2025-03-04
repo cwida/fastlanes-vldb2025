@@ -1,0 +1,2553 @@
+compression,version,table_name,id,name,data_type,compression_scheme
+duckdb,duckdb_native_12,Arade,0,F1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Arade,1,F2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Arade,2,F3,TIMESTAMP,RLE
+duckdb,duckdb_native_12,Arade,3,F4,"DECIMAL(8,4)",BitPacking
+duckdb,duckdb_native_12,Arade,4,F5,"DECIMAL(8,6)",BitPacking
+duckdb,duckdb_native_12,Arade,5,F6,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Arade,6,F7,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Arade,7,F8,"DECIMAL(9,6)",BitPacking
+duckdb,duckdb_native_12,Arade,8,F9,"DECIMAL(9,6)",BitPacking
+duckdb,duckdb_native_12,Arade,9,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Arade,10,WNET (bin),SMALLINT,BitPacking
+duckdb,duckdb_native_12,Bimbo,0,Agencia_ID,SMALLINT,RLE
+duckdb,duckdb_native_12,Bimbo,0,Agencia_ID,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Bimbo,1,Canal_ID,SMALLINT,RLE
+duckdb,duckdb_native_12,Bimbo,1,Canal_ID,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Bimbo,2,Cliente_ID,INTEGER,RLE
+duckdb,duckdb_native_12,Bimbo,2,Cliente_ID,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Bimbo,3,Demanda_uni_equil,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Bimbo,3,Demanda_uni_equil,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Bimbo,4,Dev_proxima,DOUBLE,RLE
+duckdb,duckdb_native_12,Bimbo,4,Dev_proxima,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Bimbo,5,Dev_uni_proxima,INTEGER,RLE
+duckdb,duckdb_native_12,Bimbo,5,Dev_uni_proxima,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Bimbo,6,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Bimbo,6,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Bimbo,7,Producto_ID,INTEGER,BitPacking
+duckdb,duckdb_native_12,Bimbo,7,Producto_ID,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Bimbo,8,Ruta_SAK,SMALLINT,RLE
+duckdb,duckdb_native_12,Bimbo,8,Ruta_SAK,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Bimbo,9,Semana,SMALLINT,RLE
+duckdb,duckdb_native_12,Bimbo,9,Semana,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Bimbo,10,Venta_hoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Bimbo,10,Venta_hoy,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Bimbo,11,Venta_uni_hoy,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Bimbo,11,Venta_uni_hoy,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,CMSprovider,0,AVERAGE_MEDICARE_ALLOWED_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,CMSprovider,1,AVERAGE_MEDICARE_PAYMENT_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,CMSprovider,2,AVERAGE_SUBMITTED_CHRG_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,CMSprovider,3,BENE_DAY_SRVC_CNT,INTEGER,BitPacking
+duckdb,duckdb_native_12,CMSprovider,4,BENE_UNIQUE_CNT,INTEGER,BitPacking
+duckdb,duckdb_native_12,CMSprovider,5,HCPCS_CODE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,6,HCPCS_DESCRIPTION,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,7,HCPCS_DRUG_INDICATOR,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,8,LINE_SRVC_CNT,DOUBLE,ALP
+duckdb,duckdb_native_12,CMSprovider,9,MEDICARE_PARTICIPATION_INDICATOR,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,10,NPI,INTEGER,Uncompressed
+duckdb,duckdb_native_12,CMSprovider,11,NPPES_CREDENTIALS,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,12,NPPES_ENTITY_CODE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,13,NPPES_PROVIDER_CITY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,14,NPPES_PROVIDER_COUNTRY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,15,NPPES_PROVIDER_GENDER,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,16,NPPES_PROVIDER_STATE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,17,NPPES_PROVIDER_STREET1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,18,NPPES_PROVIDER_STREET2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,18,NPPES_PROVIDER_STREET2,VARCHAR,FSST
+duckdb,duckdb_native_12,CMSprovider,19,NPPES_PROVIDER_ZIP,INTEGER,Uncompressed
+duckdb,duckdb_native_12,CMSprovider,20,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,CMSprovider,21,PLACE_OF_SERVICE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,22,PROVIDER_TYPE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CMSprovider,23,STDEV_MEDICARE_ALLOWED_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,CMSprovider,24,STDEV_MEDICARE_PAYMENT_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,CMSprovider,25,STDEV_SUBMITTED_CHRG_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,CityMaxCapita,0,City/Admin,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,1,City/State,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,1,City/State,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,2,City,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,2,City,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,3,Created Date/Time,DOUBLE,ALPRD
+duckdb,duckdb_native_12,CityMaxCapita,4,Date Joined,"DECIMAL(15,10)",BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,5,FF Ratio,"DECIMAL(6,1)",BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,6,Favorites,INTEGER,BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,7,First Link in Tweet,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,8,Followers,INTEGER,BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,9,Following,INTEGER,BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,10,Gender,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,11,Influencer?,SMALLINT,BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,12,Keyword,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,13,LPF,DOUBLE,ALP
+duckdb,duckdb_native_12,CityMaxCapita,14,Language,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,15,Lat,"DECIMAL(10,8)",BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,16,Listed Number,INTEGER,BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,17,Long Domain,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,18,Long,"DECIMAL(11,8)",BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,19,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,CityMaxCapita,20,Region,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,21,Short Domain,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,22,State/Country,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,23,State,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,24,Tweet Text,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,25,Tweets,INTEGER,BitPacking
+duckdb,duckdb_native_12,CityMaxCapita,26,Twitter Client,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,27,User Bio,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,28,User Loc,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CityMaxCapita,28,User Loc,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,29,Username 1,VARCHAR,FSST
+duckdb,duckdb_native_12,CityMaxCapita,30,Username,VARCHAR,FSST
+duckdb,duckdb_native_12,CommonGovernment,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,CommonGovernment,1,a_aid_acontid_agencyid,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,2,a_aid_acontid_piid,VARCHAR,FSST
+duckdb,duckdb_native_12,CommonGovernment,3,ag_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,4,agency_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,5,ase_rowid,INTEGER,BitPacking
+duckdb,duckdb_native_12,CommonGovernment,6,award_type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,7,award_type_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,8,award_type_key,SMALLINT,RLE
+duckdb,duckdb_native_12,CommonGovernment,9,baseandalloptionsvalue,DOUBLE,ALP
+duckdb,duckdb_native_12,CommonGovernment,10,baseandexercisedoptionsvalue,DOUBLE,ALP
+duckdb,duckdb_native_12,CommonGovernment,11,bureau_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,12,bureau_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,13,cd_contactiontype,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,14,co_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,15,co_state,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,16,code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,17,contract_num,VARCHAR,FSST
+duckdb,duckdb_native_12,CommonGovernment,18,contract_signeddate,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,19,contractingofficeagencyid,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,20,count_fetched,INTEGER,RLE
+duckdb,duckdb_native_12,CommonGovernment,21,count_total,INTEGER,RLE
+duckdb,duckdb_native_12,CommonGovernment,22,description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,23,fk_epa_des_prod,SMALLINT,BitPacking
+duckdb,duckdb_native_12,CommonGovernment,24,fk_rec_mat,SMALLINT,BitPacking
+duckdb,duckdb_native_12,CommonGovernment,25,ftsdollar,DOUBLE,Constant
+duckdb,duckdb_native_12,CommonGovernment,26,funding_agency,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,27,funding_agency_key,INTEGER,RLE
+duckdb,duckdb_native_12,CommonGovernment,28,funding_agency_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,29,gsadollar,DOUBLE,RLE
+duckdb,duckdb_native_12,CommonGovernment,30,gsaotherdollar,DOUBLE,ALP
+duckdb,duckdb_native_12,CommonGovernment,31,gwacs,DOUBLE,RLE
+duckdb,duckdb_native_12,CommonGovernment,32,level1_category,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,33,level2_category,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,34,naics_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,35,naics_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,36,nongsadollar,DOUBLE,ALP
+duckdb,duckdb_native_12,CommonGovernment,37,obligatedamount,DOUBLE,ALP
+duckdb,duckdb_native_12,CommonGovernment,38,obligatedamount_1,"DECIMAL(1,0)",Constant
+duckdb,duckdb_native_12,CommonGovernment,39,pbsdollar,DOUBLE,RLE
+duckdb,duckdb_native_12,CommonGovernment,40,primary_contract_piid,VARCHAR,FSST
+duckdb,duckdb_native_12,CommonGovernment,41,prod_or_serv_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,42,prod_or_serv_code_desc,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,43,psc_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,44,psc_code_description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,45,psc_key,INTEGER,RLE
+duckdb,duckdb_native_12,CommonGovernment,46,quarter,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,47,refidvid_agencyid,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,48,refidvid_piid,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,49,short_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,50,signeddate,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,51,vend_contoffbussizedeterm,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,52,vend_dunsnumber,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,52,vend_dunsnumber,VARCHAR,FSST
+duckdb,duckdb_native_12,CommonGovernment,53,vend_vendorname,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,54,whocanuse,VARCHAR,Dictionary
+duckdb,duckdb_native_12,CommonGovernment,55,year,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,0,Id1,INTEGER,BitPacking
+duckdb,duckdb_native_12,Corporations,1,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Corporations,2,angelco_account,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,3,business_model,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,4,city,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,5,continent,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,6,country,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,7,crunchbase_account,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,8,facebook_account,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,9,financing_stage,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,10,founding_date,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,11,id,INTEGER,BitPacking
+duckdb,duckdb_native_12,Corporations,12,industries,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,13,keywords,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,14,last_funding_date,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,15,linkedin_account,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,16,location,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,17,long_description,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,18,name,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,19,num_employees,INTEGER,RLE
+duckdb,duckdb_native_12,Corporations,20,region,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,21,score,INTEGER,BitPacking
+duckdb,duckdb_native_12,Corporations,22,short_descriptiion,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,23,stage,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Corporations,24,total_funding,INTEGER,Constant
+duckdb,duckdb_native_12,Corporations,25,twitter_account,VARCHAR,FSST
+duckdb,duckdb_native_12,Corporations,26,website,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,0,Calculation_838513981443702785,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,1,Calculation_838513981462429699,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,2,Codigo Diploma/Certificado,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,3,Cor da Pele,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,4,Data Diploma/Certificado,TIMESTAMP,RLE
+duckdb,duckdb_native_12,Eixo,5,Data Pré-Matricula,DATE,RLE
+duckdb,duckdb_native_12,Eixo,6,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Eixo,7,ch_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,8,ch_da_oferta,INTEGER,BitPacking
+duckdb,duckdb_native_12,Eixo,9,ch_max_financiavel,SMALLINT,RLE
+duckdb,duckdb_native_12,Eixo,10,ch_maxima_permitida,SMALLINT,RLE
+duckdb,duckdb_native_12,Eixo,11,ch_min_financiavel,SMALLINT,RLE
+duckdb,duckdb_native_12,Eixo,12,ch_minima_do_curso,SMALLINT,RLE
+duckdb,duckdb_native_12,Eixo,13,co_matricula_estudante,INTEGER,BitPacking
+duckdb,duckdb_native_12,Eixo,14,cod_da_unidade_de_ensino,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,14,cod_da_unidade_de_ensino,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,15,cod_ibge_da_ue,INTEGER,RLE
+duckdb,duckdb_native_12,Eixo,16,cod_ibge_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,17,codigo_da_oferta,INTEGER,BitPacking
+duckdb,duckdb_native_12,Eixo,18,codigo_do_curso,INTEGER,BitPacking
+duckdb,duckdb_native_12,Eixo,19,comunidade_quilombola,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,20,cpf aluno,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,21,data de confirmacao,DATE,RLE
+duckdb,duckdb_native_12,Eixo,22,data de nascimento aluno,DATE,BitPacking
+duckdb,duckdb_native_12,Eixo,23,data_da_publicacao,DATE,Constant
+duckdb,duckdb_native_12,Eixo,24,data_de_conclusao,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,25,data_de_inicio,DATE,RLE
+duckdb,duckdb_native_12,Eixo,26,data_de_previsaode_termino,DATE,RLE
+duckdb,duckdb_native_12,Eixo,27,desempregado,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,28,ds_email,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,29,ds_identificador_turma,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,30,ds_tipo_beneficiario,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,31,dt_cadastro,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,32,ead,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,33,edicao_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,34,edital,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,35,eixo_tecnologico_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,36,eixo_tecnológico,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,37,escolaridade do aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,38,escolaridade_catalogo_guia,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,39,forma_ingresso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,40,instituicao,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,40,instituicao,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,41,mantenedora,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,42,municipio_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,43,municipio_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,44,no_dependencia_admin,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,45,no_modalidade,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,46,no_parceiro_demandante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,47,no_programa,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,48,no_sistema_ensino,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,49,no_subdependencia_admin,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,49,no_subdependencia_admin,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,50,nome aluno,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,51,nome da sit matricula (situacao detalhada),VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,52,nome_curso_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,53,nome_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,54,nome_da_uer,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,55,nome_do_curso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,56,nu_telefone,VARCHAR,FSST
+duckdb,duckdb_native_12,Eixo,57,nu_telefone_celular,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,58,oferta_cadastro_online,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,59,pcd,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,60,populacao_campo,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,61,povo_indigena,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,62,seguro_desenprego,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,63,sexo do aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,64,situacao_da_turma,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,65,st_extemporaneo_matricula,BOOLEAN,RLE
+duckdb,duckdb_native_12,Eixo,66,st_extemporaneo_turma,BOOLEAN,RLE
+duckdb,duckdb_native_12,Eixo,67,st_financiavel,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,68,subtipo_curso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,69,tipo_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,70,tipo_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,71,total_conf_freq_aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,72,total_freq_aluno,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Eixo,73,transferencia_renda,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,74,turno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,75,uf_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,76,uf_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,77,unidade_demandante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Eixo,78,vagas,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Eixo,79,valor_hora_aula_proposto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Euro2016,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Euro2016,0,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Euro2016,1,id,INTEGER,BitPacking
+duckdb,duckdb_native_12,Euro2016,1,id,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Euro2016,2,lang,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Euro2016,2,lang,VARCHAR,FSST
+duckdb,duckdb_native_12,Euro2016,2,lang,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Euro2016,3,latitude,VARCHAR,FSST
+duckdb,duckdb_native_12,Euro2016,3,latitude,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Euro2016,4,longitude,VARCHAR,FSST
+duckdb,duckdb_native_12,Euro2016,4,longitude,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Euro2016,5,polarity,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Euro2016,5,polarity,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Euro2016,6,polarity_confidence,"DECIMAL(16,15)",BitPacking
+duckdb,duckdb_native_12,Euro2016,6,polarity_confidence,"DECIMAL(16,15)",Uncompressed
+duckdb,duckdb_native_12,Euro2016,7,subjectivity,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Euro2016,7,subjectivity,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Euro2016,8,subjectivity_confidence,"DECIMAL(16,15)",BitPacking
+duckdb,duckdb_native_12,Euro2016,8,subjectivity_confidence,"DECIMAL(16,15)",Uncompressed
+duckdb,duckdb_native_12,Euro2016,9,tweet,VARCHAR,FSST
+duckdb,duckdb_native_12,Euro2016,9,tweet,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Euro2016,10,tweeted_at,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,Euro2016,10,tweeted_at,TIMESTAMP,Uncompressed
+duckdb,duckdb_native_12,Food,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Food,0,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Food,1,activity_sec,INTEGER,BitPacking
+duckdb,duckdb_native_12,Food,1,activity_sec,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Food,2,application,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Food,2,application,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Food,3,device,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Food,3,device,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Food,4,subscribers,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Food,4,subscribers,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Food,5,volume_total_bytes,DOUBLE,ALP
+duckdb,duckdb_native_12,Food,5,volume_total_bytes,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Generico,0,Anunciante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,0,Anunciante,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,1,Aviso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,1,Aviso,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,2,A�o,SMALLINT,Constant
+duckdb,duckdb_native_12,Generico,2,A�o,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,3,Cadena,VARCHAR,FSST
+duckdb,duckdb_native_12,Generico,3,Cadena,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,4,Categoria,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,4,Categoria,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,5,Circulacion,VARCHAR,FSST
+duckdb,duckdb_native_12,Generico,5,Circulacion,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,6,Codigo,INTEGER,BitPacking
+duckdb,duckdb_native_12,Generico,6,Codigo,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Generico,7,Cols,SMALLINT,RLE
+duckdb,duckdb_native_12,Generico,7,Cols,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,8,Concatenar 1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,8,Concatenar 1,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,9,Concatenar 2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,9,Concatenar 2,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,10,Corte,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Generico,10,Corte,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,11,De_Npags,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Generico,11,De_Npags,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,12,Dia_Semana,SMALLINT,RLE
+duckdb,duckdb_native_12,Generico,12,Dia_Semana,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,13,Disco,SMALLINT,RLE
+duckdb,duckdb_native_12,Generico,13,Disco,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,14,Duracion,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Generico,14,Duracion,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,15,Est,VARCHAR,FSST
+duckdb,duckdb_native_12,Generico,15,Est,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,16,FECHA,DATE,RLE
+duckdb,duckdb_native_12,Generico,16,FECHA,DATE,Uncompressed
+duckdb,duckdb_native_12,Generico,17,Franja,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,17,Franja,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,18,Genero,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,18,Genero,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,19,Holding,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,19,Holding,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,20,Hora_Pagina,INTEGER,BitPacking
+duckdb,duckdb_native_12,Generico,20,Hora_Pagina,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Generico,21,InversionQ,DOUBLE,ALP
+duckdb,duckdb_native_12,Generico,21,InversionQ,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Generico,22,InversionUS,DOUBLE,ALP
+duckdb,duckdb_native_12,Generico,22,InversionUS,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Generico,23,Marca,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,23,Marca,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,24,Medio,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,24,Medio,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,25,Mes,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,25,Mes,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,26,NumAnuncios,SMALLINT,Constant
+duckdb,duckdb_native_12,Generico,26,NumAnuncios,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,27,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Generico,27,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,28,Plgs,SMALLINT,RLE
+duckdb,duckdb_native_12,Generico,28,Plgs,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,29,Posicion_Edicion,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Generico,29,Posicion_Edicion,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,30,PrimeraLinea,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,30,PrimeraLinea,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,31,Producto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,31,Producto,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,32,SEMANA,SMALLINT,RLE
+duckdb,duckdb_native_12,Generico,32,SEMANA,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Generico,33,Sector,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,33,Sector,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,34,Soporte,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,34,Soporte,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,35,Subsector,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,35,Subsector,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,36,Unidad,VARCHAR,FSST
+duckdb,duckdb_native_12,Generico,36,Unidad,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,37,VER ANUNCIO,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,37,VER ANUNCIO,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,38,Vehiculo,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,38,Vehiculo,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,39,extencion,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,39,extencion,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,40,medio2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,40,medio2,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,41,www1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,41,www1,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Generico,42,www2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Generico,42,www2,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,HashTags,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,HashTags,1,demographic#gender,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,2,interaction#author#avatar,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,3,interaction#author#id,DOUBLE,ALP
+duckdb,duckdb_native_12,HashTags,4,interaction#author#language,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,5,interaction#author#link,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,6,interaction#author#name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,6,interaction#author#name,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,7,interaction#author#username,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,7,interaction#author#username,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,8,interaction#content,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,8,interaction#content,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,HashTags,9,interaction#created_at,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,10,interaction#geo#latitude,"DECIMAL(11,9)",RLE
+duckdb,duckdb_native_12,HashTags,11,interaction#geo#longitude,"DECIMAL(11,8)",RLE
+duckdb,duckdb_native_12,HashTags,12,interaction#hashtags,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,12,interaction#hashtags,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,13,interaction#id,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,14,interaction#link,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,15,interaction#mention_ids,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,16,interaction#mentions,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,17,interaction#received_at,DOUBLE,ALP
+duckdb,duckdb_native_12,HashTags,18,interaction#schema#version,SMALLINT,Constant
+duckdb,duckdb_native_12,HashTags,19,interaction#source,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,20,interaction#type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,21,twitter#created_at,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,22,twitter#display_urls,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,23,twitter#domains,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,24,twitter#filter_level,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,25,twitter#geo#latitude,"DECIMAL(11,9)",RLE
+duckdb,duckdb_native_12,HashTags,26,twitter#geo#longitude,"DECIMAL(11,8)",RLE
+duckdb,duckdb_native_12,HashTags,27,twitter#hashtags,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,27,twitter#hashtags,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,28,twitter#id,DOUBLE,ALP
+duckdb,duckdb_native_12,HashTags,29,twitter#in_reply_to_screen_name,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,30,twitter#in_reply_to_status_id,DOUBLE,RLE
+duckdb,duckdb_native_12,HashTags,31,twitter#in_reply_to_user_id,BIGINT,RLE
+duckdb,duckdb_native_12,HashTags,32,twitter#lang,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,33,twitter#links,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,34,twitter#media,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,35,twitter#mention_ids,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,36,twitter#mentions,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,37,twitter#place#country,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,38,twitter#place#country_code,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,39,twitter#place#full_name,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,40,twitter#place#id,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,41,twitter#place#name,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,42,twitter#place#place_type,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,43,twitter#place#url,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,44,twitter#possibly_sensitive,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,45,twitter#source,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,46,twitter#text,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,47,twitter#user#created_at,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,48,twitter#user#description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,49,twitter#user#favourites_count,INTEGER,BitPacking
+duckdb,duckdb_native_12,HashTags,50,twitter#user#followers_count,INTEGER,BitPacking
+duckdb,duckdb_native_12,HashTags,51,twitter#user#friends_count,INTEGER,BitPacking
+duckdb,duckdb_native_12,HashTags,52,twitter#user#geo_enabled,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,53,twitter#user#id,DOUBLE,ALP
+duckdb,duckdb_native_12,HashTags,54,twitter#user#id_str,DOUBLE,ALP
+duckdb,duckdb_native_12,HashTags,55,twitter#user#lang,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,56,twitter#user#listed_count,INTEGER,RLE
+duckdb,duckdb_native_12,HashTags,57,twitter#user#location,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,57,twitter#user#location,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,58,twitter#user#name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,58,twitter#user#name,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,59,twitter#user#profile_image_url,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,60,twitter#user#profile_image_url_https,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,61,twitter#user#screen_name,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,62,twitter#user#statuses_count,INTEGER,BitPacking
+duckdb,duckdb_native_12,HashTags,63,twitter#user#time_zone,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,64,twitter#user#url,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,64,twitter#user#url,VARCHAR,FSST
+duckdb,duckdb_native_12,HashTags,65,twitter#user#utc_offset,INTEGER,RLE
+duckdb,duckdb_native_12,HashTags,66,twitter#user#verified,VARCHAR,Dictionary
+duckdb,duckdb_native_12,HashTags,67,Contains: suburgatory (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,68,Contains: Castle (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,69,Contains: revenge (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,70,Contains: nashville (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,71,Contains: modernfamily (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,72,Contains: lastmanstanding (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,73,Contains: TheNeighbors (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,74,Contains: TheNeighbors (copy 3),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,75,Contains: TheNeighbors (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,76,Contains: suburgatory (copy 2),SMALLINT,BitPacking
+duckdb,duckdb_native_12,HashTags,77,Contains: Scandal (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,78,Contains: Scandal (copy 3),SMALLINT,BitPacking
+duckdb,duckdb_native_12,HashTags,79,Contains: Scandal (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,80,Contains: RookieBlue (copy),SMALLINT,BitPacking
+duckdb,duckdb_native_12,HashTags,81,Contains: RookieBlue (copy 6),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,82,Contains: RookieBlue (copy 5),SMALLINT,BitPacking
+duckdb,duckdb_native_12,HashTags,83,Contains: RookieBlue (copy 4),SMALLINT,BitPacking
+duckdb,duckdb_native_12,HashTags,84,Contains: RookieBlue (copy 3),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,85,Contains: RookieBlue (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,86,Contains: OnceUponATime (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,87,Contains: Motive (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,88,Contains: Motive (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,89,Contains: KillerWomen (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,90,Contains: KillerWomen (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,91,Contains: GreysAnatomy (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,92,Contains: GreysAnatomy (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,93,Calculation_6220303224029615,SMALLINT,BitPacking
+duckdb,duckdb_native_12,HashTags,94,Contains: Castle (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,95,Contains: AgentsofSHIELD (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,96,Contains: AFV (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,97,Contains: AFV (copy 2),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,98,Contains: ABC2020 (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,HashTags,99,Calculation_6610227171140491,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,HashTags,100,Contains: TheMiddle (copy),SMALLINT,RLE
+duckdb,duckdb_native_12,Hatred,0,City,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,1,Client,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,2,Created Date,DOUBLE,ALP
+duckdb,duckdb_native_12,Hatred,3,F26,VARCHAR,FSST
+duckdb,duckdb_native_12,Hatred,4,F27,VARCHAR,FSST
+duckdb,duckdb_native_12,Hatred,5,F28,VARCHAR,FSST
+duckdb,duckdb_native_12,Hatred,6,FF Ratio,DOUBLE,ALP
+duckdb,duckdb_native_12,Hatred,7,Favorites,INTEGER,BitPacking
+duckdb,duckdb_native_12,Hatred,8,Followers,INTEGER,BitPacking
+duckdb,duckdb_native_12,Hatred,9,Following,INTEGER,BitPacking
+duckdb,duckdb_native_12,Hatred,10,Gender,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,11,Influencer?,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Hatred,12,Joined,"DECIMAL(15,10)",BitPacking
+duckdb,duckdb_native_12,Hatred,13,Keyword,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,14,LPF,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Hatred,15,Language,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,16,Lat,"DECIMAL(11,8)",RLE
+duckdb,duckdb_native_12,Hatred,17,Listed,INTEGER,BitPacking
+duckdb,duckdb_native_12,Hatred,18,Location Type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,19,Long,"DECIMAL(10,8)",RLE
+duckdb,duckdb_native_12,Hatred,20,Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,20,Name,VARCHAR,FSST
+duckdb,duckdb_native_12,Hatred,21,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Hatred,22,Region,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,23,Self Report Location,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,23,Self Report Location,VARCHAR,FSST
+duckdb,duckdb_native_12,Hatred,24,State ,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,25,StatePopName,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,26,StatePopNum,INTEGER,RLE
+duckdb,duckdb_native_12,Hatred,27,Tweet Text,VARCHAR,FSST
+duckdb,duckdb_native_12,Hatred,27,Tweet Text,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Hatred,28,Tweets,INTEGER,BitPacking
+duckdb,duckdb_native_12,Hatred,29,Username,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,29,Username,VARCHAR,FSST
+duckdb,duckdb_native_12,Hatred,30,profile desc,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Hatred,30,profile desc,VARCHAR,FSST
+duckdb,duckdb_native_12,IGlocations1,0,CENSUS2010POP,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,0,CENSUS2010POP,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,1,CONCIT,INTEGER,RLE
+duckdb,duckdb_native_12,IGlocations1,1,CONCIT,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,2,COUSUB,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,2,COUSUB,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,3,City,VARCHAR,FSST
+duckdb,duckdb_native_12,IGlocations1,3,City,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,4,County Code,SMALLINT,RLE
+duckdb,duckdb_native_12,IGlocations1,4,County Code,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,5,ESTIMATESBASE2010,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,5,ESTIMATESBASE2010,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,6,FUNCSTAT,VARCHAR,Dictionary
+duckdb,duckdb_native_12,IGlocations1,6,FUNCSTAT,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,7,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,IGlocations1,7,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,8,PLACE,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,8,PLACE,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,9,POPESTIMATE2010,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,9,POPESTIMATE2010,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,10,POPESTIMATE2011,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,10,POPESTIMATE2011,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,11,POPESTIMATE2012,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,11,POPESTIMATE2012,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,12,POPESTIMATE2013,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,12,POPESTIMATE2013,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,13,POPESTIMATE2014,INTEGER,BitPacking
+duckdb,duckdb_native_12,IGlocations1,13,POPESTIMATE2014,INTEGER,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,14,PRIMGEO_FLAG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,IGlocations1,14,PRIMGEO_FLAG,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,15,SUMLEV,SMALLINT,BitPacking
+duckdb,duckdb_native_12,IGlocations1,15,SUMLEV,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,16,State code,SMALLINT,RLE
+duckdb,duckdb_native_12,IGlocations1,16,State code,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,IGlocations1,17,State,VARCHAR,Dictionary
+duckdb,duckdb_native_12,IGlocations1,17,State,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,MLB,0,AB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,0,AB,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,1,AVG,"DECIMAL(4,3)",BitPacking
+duckdb,duckdb_native_12,MLB,1,AVG,"DECIMAL(4,3)",Uncompressed
+duckdb,duckdb_native_12,MLB,2,BABIP,"DECIMAL(4,3)",BitPacking
+duckdb,duckdb_native_12,MLB,2,BABIP,"DECIMAL(4,3)",Uncompressed
+duckdb,duckdb_native_12,MLB,3,BB.,SMALLINT,Constant
+duckdb,duckdb_native_12,MLB,3,BB.,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,4,BB,SMALLINT,Constant
+duckdb,duckdb_native_12,MLB,4,BB,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,5,BIP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,5,BIP,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,6,FB.,"DECIMAL(4,1)",BitPacking
+duckdb,duckdb_native_12,MLB,6,FB.,"DECIMAL(4,1)",Uncompressed
+duckdb,duckdb_native_12,MLB,7,FB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,7,FB,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,8,GB.,"DECIMAL(4,1)",BitPacking
+duckdb,duckdb_native_12,MLB,8,GB.,"DECIMAL(4,1)",Uncompressed
+duckdb,duckdb_native_12,MLB,9,GB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,9,GB,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,10,GIDP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,10,GIDP,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,11,HBP,SMALLINT,Constant
+duckdb,duckdb_native_12,MLB,11,HBP,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,12,HR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,12,HR,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,13,H,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,13,H,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,14,ISO,"DECIMAL(4,3)",BitPacking
+duckdb,duckdb_native_12,MLB,14,ISO,"DECIMAL(4,3)",Uncompressed
+duckdb,duckdb_native_12,MLB,15,K.,SMALLINT,RLE
+duckdb,duckdb_native_12,MLB,15,K.,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,16,LD.,"DECIMAL(4,1)",BitPacking
+duckdb,duckdb_native_12,MLB,16,LD.,"DECIMAL(4,1)",Uncompressed
+duckdb,duckdb_native_12,MLB,17,LD,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,17,LD,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,18,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,MLB,18,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,19,OBP,"DECIMAL(4,3)",BitPacking
+duckdb,duckdb_native_12,MLB,19,OBP,"DECIMAL(4,3)",Uncompressed
+duckdb,duckdb_native_12,MLB,20,PA,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,20,PA,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,21,PU.,"DECIMAL(4,1)",BitPacking
+duckdb,duckdb_native_12,MLB,21,PU.,"DECIMAL(4,1)",Uncompressed
+duckdb,duckdb_native_12,MLB,22,PU,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,22,PU,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,23,SF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,23,SF,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,24,SH,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,24,SH,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,25,SLG,"DECIMAL(4,3)",BitPacking
+duckdb,duckdb_native_12,MLB,25,SLG,"DECIMAL(4,3)",Uncompressed
+duckdb,duckdb_native_12,MLB,26,SOL,SMALLINT,RLE
+duckdb,duckdb_native_12,MLB,26,SOL,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,27,SOS,SMALLINT,RLE
+duckdb,duckdb_native_12,MLB,27,SOS,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,28,SO,SMALLINT,RLE
+duckdb,duckdb_native_12,MLB,28,SO,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,29,TB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,29,TB,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,30,X1B,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,30,X1B,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,31,X2B,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,31,X2B,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,32,X3B,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,32,X3B,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,33,batter_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MLB,33,batter_name,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,MLB,34,field,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MLB,34,field,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,MLB,35,iBB,SMALLINT,Constant
+duckdb,duckdb_native_12,MLB,35,iBB,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,36,league,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MLB,36,league,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,MLB,37,parentteam,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MLB,37,parentteam,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,MLB,38,pwRC.,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,38,pwRC.,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,39,stand,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MLB,39,stand,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,MLB,40,teamname,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MLB,40,teamname,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,MLB,41,wOBA,"DECIMAL(4,3)",BitPacking
+duckdb,duckdb_native_12,MLB,41,wOBA,"DECIMAL(4,3)",Uncompressed
+duckdb,duckdb_native_12,MLB,42,wRAA,"DECIMAL(3,1)",BitPacking
+duckdb,duckdb_native_12,MLB,42,wRAA,"DECIMAL(3,1)",Uncompressed
+duckdb,duckdb_native_12,MLB,43,wRC.,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MLB,43,wRC.,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,44,wRC,"DECIMAL(3,1)",BitPacking
+duckdb,duckdb_native_12,MLB,44,wRC,"DECIMAL(3,1)",Uncompressed
+duckdb,duckdb_native_12,MLB,45,year,SMALLINT,RLE
+duckdb,duckdb_native_12,MLB,45,year,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,MLB,46,Calculation_40532458112880653,"DECIMAL(17,14)",RLE
+duckdb,duckdb_native_12,MLB,46,Calculation_40532458112880653,"DECIMAL(17,14)",Uncompressed
+duckdb,duckdb_native_12,MLB,47,Calculation_40532458117070874,"DECIMAL(17,14)",RLE
+duckdb,duckdb_native_12,MLB,47,Calculation_40532458117070874,"DECIMAL(17,14)",Uncompressed
+duckdb,duckdb_native_12,MedPayment1,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,MedPayment1,1,average_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,MedPayment1,2,average_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,MedPayment1,3,average_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,MedPayment1,4,bene_day_srvc_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,MedPayment1,5,bene_unique_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,MedPayment1,6,hcpcs_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,7,hcpcs_description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,8,line_srvc_cnt,DOUBLE,ALP
+duckdb,duckdb_native_12,MedPayment1,9,medicare_participation_indicator,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,10,npi,INTEGER,Uncompressed
+duckdb,duckdb_native_12,MedPayment1,11,nppes_credentials,VARCHAR,FSST
+duckdb,duckdb_native_12,MedPayment1,12,nppes_entity_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,13,nppes_provider_city,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,14,nppes_provider_country,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,15,nppes_provider_first_name,VARCHAR,FSST
+duckdb,duckdb_native_12,MedPayment1,16,nppes_provider_gender,VARCHAR,FSST
+duckdb,duckdb_native_12,MedPayment1,17,nppes_provider_last_org_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,18,nppes_provider_mi,VARCHAR,FSST
+duckdb,duckdb_native_12,MedPayment1,19,nppes_provider_state,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,20,nppes_provider_street1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,21,nppes_provider_street2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,21,nppes_provider_street2,VARCHAR,FSST
+duckdb,duckdb_native_12,MedPayment1,22,nppes_provider_zip,INTEGER,BitPacking
+duckdb,duckdb_native_12,MedPayment1,23,place_of_service,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,24,provider_type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MedPayment1,25,stdev_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,MedPayment1,26,stdev_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,MedPayment1,27,stdev_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,MedPayment1,27,stdev_submitted_chrg_amt,DOUBLE,RLE
+duckdb,duckdb_native_12,Medicare1,0,BENE_COUNT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Medicare1,0,BENE_COUNT,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Medicare1,1,BENE_COUNT_GE65,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Medicare1,1,BENE_COUNT_GE65,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Medicare1,2,BENE_COUNT_GE65_REDACT_FLAG,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,2,BENE_COUNT_GE65_REDACT_FLAG,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,3,Calculation_3170826185336909,"DECIMAL(18,15)",Uncompressed
+duckdb,duckdb_native_12,Medicare1,4,Calculation_3170826185505725,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Medicare1,4,Calculation_3170826185505725,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Medicare1,5,Calculation_7130826185400024,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Medicare1,5,Calculation_7130826185400024,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Medicare1,6,Calculation_9030826185528129,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Medicare1,6,Calculation_9030826185528129,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Medicare1,7,DESCRIPTION_FLAG,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,7,DESCRIPTION_FLAG,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,8,DRUG_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,8,DRUG_NAME,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,9,GE65_REDACT_FLAG,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,9,GE65_REDACT_FLAG,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,10,GENERIC_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,10,GENERIC_NAME,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,11,NPI,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Medicare1,12,NPPES_PROVIDER_CITY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,12,NPPES_PROVIDER_CITY,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,13,NPPES_PROVIDER_FIRST_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,13,NPPES_PROVIDER_FIRST_NAME,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,14,NPPES_PROVIDER_LAST_ORG_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,14,NPPES_PROVIDER_LAST_ORG_NAME,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,15,NPPES_PROVIDER_STATE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,15,NPPES_PROVIDER_STATE,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,16,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Medicare1,16,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Medicare1,17,SPECIALTY_DESC,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Medicare1,17,SPECIALTY_DESC,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Medicare1,18,TOTAL_CLAIM_COUNT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Medicare1,18,TOTAL_CLAIM_COUNT,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Medicare1,19,TOTAL_CLAIM_COUNT_GE65,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Medicare1,19,TOTAL_CLAIM_COUNT_GE65,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Medicare1,20,TOTAL_DAY_SUPPLY,INTEGER,BitPacking
+duckdb,duckdb_native_12,Medicare1,20,TOTAL_DAY_SUPPLY,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Medicare1,21,TOTAL_DAY_SUPPLY_GE65,INTEGER,BitPacking
+duckdb,duckdb_native_12,Medicare1,21,TOTAL_DAY_SUPPLY_GE65,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Medicare1,22,TOTAL_DRUG_COST,DOUBLE,ALP
+duckdb,duckdb_native_12,Medicare1,22,TOTAL_DRUG_COST,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Medicare1,23,TOTAL_DRUG_COST_GE65,DOUBLE,ALP
+duckdb,duckdb_native_12,Medicare1,23,TOTAL_DRUG_COST_GE65,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Medicare1,24,Calculation_6710826185428006,SMALLINT,RLE
+duckdb,duckdb_native_12,Medicare1,24,Calculation_6710826185428006,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Medicare1,25,Avg Day Supply/Bene (bin),SMALLINT,BitPacking
+duckdb,duckdb_native_12,Medicare1,25,Avg Day Supply/Bene (bin),SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Motos,0,Anunciante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,1,Aviso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,2,A�o,SMALLINT,Constant
+duckdb,duckdb_native_12,Motos,3,Cadena,VARCHAR,FSST
+duckdb,duckdb_native_12,Motos,4,Categoria,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,5,Circulacion,VARCHAR,FSST
+duckdb,duckdb_native_12,Motos,6,Codigo,INTEGER,BitPacking
+duckdb,duckdb_native_12,Motos,7,Cols,SMALLINT,RLE
+duckdb,duckdb_native_12,Motos,8,Concatenar 1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,9,Concatenar 2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,10,Corte,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Motos,11,De_Npags,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Motos,12,Dia_Semana,SMALLINT,RLE
+duckdb,duckdb_native_12,Motos,13,Disco,SMALLINT,RLE
+duckdb,duckdb_native_12,Motos,14,Duracion,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Motos,15,Est,VARCHAR,FSST
+duckdb,duckdb_native_12,Motos,16,FECHA,DATE,RLE
+duckdb,duckdb_native_12,Motos,17,Franja,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,18,Genero,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,19,Holding,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,20,Hora_Pagina,INTEGER,BitPacking
+duckdb,duckdb_native_12,Motos,21,InversionQ,DOUBLE,ALP
+duckdb,duckdb_native_12,Motos,22,InversionUS,DOUBLE,ALP
+duckdb,duckdb_native_12,Motos,23,Marca,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,24,Medio,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,25,Mes,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,26,NumAnuncios,SMALLINT,Constant
+duckdb,duckdb_native_12,Motos,27,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Motos,28,Plgs,SMALLINT,RLE
+duckdb,duckdb_native_12,Motos,29,Posicion_Edicion,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Motos,30,PrimeraLinea,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,31,Producto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,32,SEMANA,SMALLINT,RLE
+duckdb,duckdb_native_12,Motos,33,Sector,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,34,Soporte,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,35,Subsector,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,36,Unidad,VARCHAR,FSST
+duckdb,duckdb_native_12,Motos,37,VER ANUNCIO,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,38,Vehiculo,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,39,extencion,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,40,medio2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,41,www1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,42,www2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Motos,43,Anunciante (grupo),VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,0,Calculation_838513981443702785,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,1,Calculation_838513981462429699,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,2,Codigo Diploma/Certificado,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,3,Cor da Pele,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,4,Data Diploma/Certificado,TIMESTAMP,RLE
+duckdb,duckdb_native_12,MulheresMil,5,Data Pré-Matricula,DATE,RLE
+duckdb,duckdb_native_12,MulheresMil,6,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,MulheresMil,7,ch_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,8,ch_da_oferta,INTEGER,BitPacking
+duckdb,duckdb_native_12,MulheresMil,9,ch_max_financiavel,SMALLINT,RLE
+duckdb,duckdb_native_12,MulheresMil,10,ch_maxima_permitida,SMALLINT,RLE
+duckdb,duckdb_native_12,MulheresMil,11,ch_min_financiavel,SMALLINT,RLE
+duckdb,duckdb_native_12,MulheresMil,12,ch_minima_do_curso,SMALLINT,RLE
+duckdb,duckdb_native_12,MulheresMil,13,co_matricula_estudante,INTEGER,BitPacking
+duckdb,duckdb_native_12,MulheresMil,14,cod_da_unidade_de_ensino,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,15,cod_ibge_da_ue,INTEGER,RLE
+duckdb,duckdb_native_12,MulheresMil,16,cod_ibge_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,16,cod_ibge_do_local_da_oferta,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,17,codigo_da_oferta,INTEGER,BitPacking
+duckdb,duckdb_native_12,MulheresMil,18,codigo_do_curso,INTEGER,BitPacking
+duckdb,duckdb_native_12,MulheresMil,19,comunidade_quilombola,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,20,cpf aluno,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,21,data de confirmacao,DATE,RLE
+duckdb,duckdb_native_12,MulheresMil,22,data de nascimento aluno,DATE,BitPacking
+duckdb,duckdb_native_12,MulheresMil,23,data_da_publicacao,DATE,Constant
+duckdb,duckdb_native_12,MulheresMil,24,data_de_conclusao,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,25,data_de_inicio,DATE,RLE
+duckdb,duckdb_native_12,MulheresMil,26,data_de_previsaode_termino,DATE,RLE
+duckdb,duckdb_native_12,MulheresMil,27,desempregado,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,28,ds_email,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,29,ds_identificador_turma,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,30,ds_tipo_beneficiario,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,31,dt_cadastro,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,32,ead,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,33,edicao_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,34,edital,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,35,eixo_tecnologico_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,36,eixo_tecnológico,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,37,escolaridade do aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,38,escolaridade_catalogo_guia,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,39,forma_ingresso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,40,instituicao,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,40,instituicao,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,41,mantenedora,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,42,municipio_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,43,municipio_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,44,no_dependencia_admin,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,45,no_modalidade,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,46,no_parceiro_demandante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,47,no_programa,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,48,no_sistema_ensino,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,49,no_subdependencia_admin,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,49,no_subdependencia_admin,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,50,nome aluno,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,51,nome da sit matricula (situacao detalhada),VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,52,nome_curso_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,53,nome_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,54,nome_da_uer,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,55,nome_do_curso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,56,nu_telefone,VARCHAR,FSST
+duckdb,duckdb_native_12,MulheresMil,57,nu_telefone_celular,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,58,oferta_cadastro_online,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,59,pcd,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,60,populacao_campo,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,61,povo_indigena,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,62,seguro_desenprego,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,63,sexo do aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,64,situacao_da_turma,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,65,st_extemporaneo_matricula,BOOLEAN,RLE
+duckdb,duckdb_native_12,MulheresMil,66,st_extemporaneo_turma,BOOLEAN,RLE
+duckdb,duckdb_native_12,MulheresMil,67,st_financiavel,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,68,subtipo_curso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,69,tipo_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,70,tipo_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,71,total_conf_freq_aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,72,total_freq_aluno,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MulheresMil,73,transferencia_renda,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,74,turno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,75,uf_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,76,uf_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,77,unidade_demandante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,78,vagas,SMALLINT,BitPacking
+duckdb,duckdb_native_12,MulheresMil,79,valor_hora_aula_proposto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,MulheresMil,80,Calculation_838513978982854656,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,0,Address Type,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,1,Agency Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,2,Agency,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,3,Borough,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,4,Bridge Highway Direction,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,5,Bridge Highway Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,6,Bridge Highway Segment,DATE,Constant
+duckdb,duckdb_native_12,NYC,7,City,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,8,Closed Date,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,NYC,9,Community Board,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,10,Complaint Type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,11,Created Date,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,NYC,12,Cross Street 1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,12,Cross Street 1,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,13,Cross Street 2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,13,Cross Street 2,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,14,Descriptor,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,15,Due Date,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,NYC,16,Facility Type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,17,Ferry Direction,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,18,Ferry Terminal Name,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,19,Garage Lot Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,20,Incident Address,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,20,Incident Address,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,21,Incident Zip,BIGINT,RLE
+duckdb,duckdb_native_12,NYC,22,Intersection Street 1,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,23,Intersection Street 2,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,24,Landmark,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,25,Latitude,"DECIMAL(15,13)",RLE
+duckdb,duckdb_native_12,NYC,26,Location Type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,27,Location,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,28,Longitude,"DECIMAL(15,13)",RLE
+duckdb,duckdb_native_12,NYC,29,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,NYC,30,Park Borough,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,31,Park Facility Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,32,Resolution Action Updated Date,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,NYC,33,Resolution Description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,34,Road Ramp,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,35,School Address,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,36,School City,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,37,School Code,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,38,School Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,39,School Not Found,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,40,School Number,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,41,School Phone Number,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,42,School Region,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,42,School Region,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,43,School State,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,44,School Zip,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,45,School or Citywide Complaint,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,46,Status,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,47,Street Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,47,Street Name,VARCHAR,FSST
+duckdb,duckdb_native_12,NYC,48,Taxi Company Borough,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,49,Taxi Pick Up Location,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,50,Unique Key,INTEGER,BitPacking
+duckdb,duckdb_native_12,NYC,51,Vehicle Type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,NYC,52,X Coordinate (State Plane),INTEGER,RLE
+duckdb,duckdb_native_12,NYC,53,Y Coordinate (State Plane),INTEGER,RLE
+duckdb,duckdb_native_12,PanCreactomy1,0,AVERAGE_MEDICARE_ALLOWED_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,PanCreactomy1,1,AVERAGE_MEDICARE_PAYMENT_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,PanCreactomy1,2,AVERAGE_SUBMITTED_CHRG_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,PanCreactomy1,3,BENE_DAY_SRVC_CNT,INTEGER,BitPacking
+duckdb,duckdb_native_12,PanCreactomy1,4,BENE_UNIQUE_CNT,INTEGER,BitPacking
+duckdb,duckdb_native_12,PanCreactomy1,5,HCPCS_CODE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,6,HCPCS_DESCRIPTION,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,7,HCPCS_DRUG_INDICATOR,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,8,LINE_SRVC_CNT,DOUBLE,ALP
+duckdb,duckdb_native_12,PanCreactomy1,9,MEDICARE_PARTICIPATION_INDICATOR,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,10,NPI,INTEGER,Uncompressed
+duckdb,duckdb_native_12,PanCreactomy1,11,NPPES_CREDENTIALS,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,12,NPPES_ENTITY_CODE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,13,NPPES_PROVIDER_CITY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,14,NPPES_PROVIDER_COUNTRY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,15,NPPES_PROVIDER_FIRST_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,16,NPPES_PROVIDER_GENDER,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,17,NPPES_PROVIDER_LAST_ORG_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,18,NPPES_PROVIDER_MI,VARCHAR,FSST
+duckdb,duckdb_native_12,PanCreactomy1,19,NPPES_PROVIDER_STATE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,20,NPPES_PROVIDER_STREET1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,21,NPPES_PROVIDER_STREET2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,21,NPPES_PROVIDER_STREET2,VARCHAR,FSST
+duckdb,duckdb_native_12,PanCreactomy1,22,NPPES_PROVIDER_ZIP,INTEGER,BitPacking
+duckdb,duckdb_native_12,PanCreactomy1,23,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,PanCreactomy1,24,PLACE_OF_SERVICE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,25,PROVIDER_TYPE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,PanCreactomy1,26,STDEV_MEDICARE_ALLOWED_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,PanCreactomy1,27,STDEV_MEDICARE_PAYMENT_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,PanCreactomy1,28,STDEV_SUBMITTED_CHRG_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,Physicians,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Physicians,1,average_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Physicians,2,average_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Physicians,3,average_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Physicians,4,bene_day_srvc_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Physicians,5,bene_unique_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Physicians,6,hcpcs_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,7,hcpcs_description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,8,line_srvc_cnt,DOUBLE,ALP
+duckdb,duckdb_native_12,Physicians,9,medicare_participation_indicator,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,10,npi,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Physicians,11,nppes_credentials,VARCHAR,FSST
+duckdb,duckdb_native_12,Physicians,12,nppes_entity_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,13,nppes_provider_city,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,14,nppes_provider_country,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,15,nppes_provider_first_name,VARCHAR,FSST
+duckdb,duckdb_native_12,Physicians,16,nppes_provider_gender,VARCHAR,FSST
+duckdb,duckdb_native_12,Physicians,17,nppes_provider_last_org_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,18,nppes_provider_mi,VARCHAR,FSST
+duckdb,duckdb_native_12,Physicians,19,nppes_provider_state,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,19,nppes_provider_state,VARCHAR,FSST
+duckdb,duckdb_native_12,Physicians,20,nppes_provider_street1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,21,nppes_provider_street2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,21,nppes_provider_street2,VARCHAR,FSST
+duckdb,duckdb_native_12,Physicians,22,nppes_provider_zip,INTEGER,BitPacking
+duckdb,duckdb_native_12,Physicians,23,place_of_service,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,24,provider_type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Physicians,25,stdev_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Physicians,26,stdev_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Physicians,27,stdev_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Provider,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Provider,1,average_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Provider,2,average_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Provider,3,average_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Provider,4,bene_day_srvc_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Provider,5,bene_unique_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Provider,6,hcpcs_code,INTEGER,RLE
+duckdb,duckdb_native_12,Provider,7,hcpcs_description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,8,line_srvc_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Provider,9,medicare_participation_indicator,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,10,npi,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Provider,11,nppes_credentials,VARCHAR,FSST
+duckdb,duckdb_native_12,Provider,12,nppes_entity_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,13,nppes_provider_city,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,14,nppes_provider_country,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,15,nppes_provider_first_name,VARCHAR,FSST
+duckdb,duckdb_native_12,Provider,16,nppes_provider_gender,VARCHAR,FSST
+duckdb,duckdb_native_12,Provider,17,nppes_provider_last_org_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,18,nppes_provider_mi,VARCHAR,FSST
+duckdb,duckdb_native_12,Provider,19,nppes_provider_state,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,20,nppes_provider_street1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,21,nppes_provider_street2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,21,nppes_provider_street2,VARCHAR,FSST
+duckdb,duckdb_native_12,Provider,22,nppes_provider_zip,INTEGER,BitPacking
+duckdb,duckdb_native_12,Provider,23,place_of_service,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,24,provider_type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Provider,25,stdev_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Provider,26,stdev_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Provider,27,stdev_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,RealEstate1,0,Address 1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,0,Address 1,VARCHAR,FSST
+duckdb,duckdb_native_12,RealEstate1,1,Address 2,VARCHAR,FSST
+duckdb,duckdb_native_12,RealEstate1,2,County,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,3,Date of Transfer,TIMESTAMP,RLE
+duckdb,duckdb_native_12,RealEstate1,4,District,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,5,Duration,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,6,Latitude,"DECIMAL(8,6)",BitPacking
+duckdb,duckdb_native_12,RealEstate1,7,Locality,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,8,Longitude,DOUBLE,ALP
+duckdb,duckdb_native_12,RealEstate1,9,New Build?,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,10,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,RealEstate1,11,Postcode District,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,12,Postcode Region,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,13,Postcode Sector,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,13,Postcode Sector,VARCHAR,FSST
+duckdb,duckdb_native_12,RealEstate1,14,Postcode,VARCHAR,FSST
+duckdb,duckdb_native_12,RealEstate1,15,Price,INTEGER,BitPacking
+duckdb,duckdb_native_12,RealEstate1,16,Property Type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,17,Street,VARCHAR,FSST
+duckdb,duckdb_native_12,RealEstate1,18,Town/City,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,19,Transaction ID,VARCHAR,FSST
+duckdb,duckdb_native_12,RealEstate1,20,Month,SMALLINT,RLE
+duckdb,duckdb_native_12,RealEstate1,21,Calculation_7270508194941839,SMALLINT,RLE
+duckdb,duckdb_native_12,RealEstate1,22,Calculation_5960512115909696,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,23,Calculation_5480628224156393,TIMESTAMP,Constant
+duckdb,duckdb_native_12,RealEstate1,24,Calculation_2630509165701334,DOUBLE,ALPRD
+duckdb,duckdb_native_12,RealEstate1,25,Calculation_0390512122057182,VARCHAR,Dictionary
+duckdb,duckdb_native_12,RealEstate1,26,Year,SMALLINT,Constant
+duckdb,duckdb_native_12,RealEstate1,27,average monthly price per km2 (copy),DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Redfin1,1,avg_sale_to_list,"DECIMAL(16,15)",BitPacking
+duckdb,duckdb_native_12,Redfin1,2,avg_sale_to_list_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,3,avg_sale_to_list_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,3,avg_sale_to_list_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,4,city,VARCHAR,FSST
+duckdb,duckdb_native_12,Redfin1,5,homes_sold,INTEGER,BitPacking
+duckdb,duckdb_native_12,Redfin1,6,homes_sold_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,7,homes_sold_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,7,homes_sold_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,8,inventory,INTEGER,BitPacking
+duckdb,duckdb_native_12,Redfin1,9,inventory_mom,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,9,inventory_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,10,inventory_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,10,inventory_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,11,median_dom,"DECIMAL(5,1)",BitPacking
+duckdb,duckdb_native_12,Redfin1,12,median_dom_mom,"DECIMAL(5,1)",BitPacking
+duckdb,duckdb_native_12,Redfin1,13,median_dom_yoy,"DECIMAL(5,1)",BitPacking
+duckdb,duckdb_native_12,Redfin1,14,median_list_ppsf,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,14,median_list_ppsf,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,15,median_list_ppsf_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,16,median_list_ppsf_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,16,median_list_ppsf_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,17,median_list_price,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,18,median_list_price_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,19,median_list_price_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,19,median_list_price_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,20,median_ppsf,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,21,median_ppsf_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,22,median_ppsf_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,22,median_ppsf_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,23,median_sale_price,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,24,median_sale_price_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,25,median_sale_price_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,25,median_sale_price_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,26,new_listings,INTEGER,BitPacking
+duckdb,duckdb_native_12,Redfin1,27,new_listings_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,28,new_listings_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,28,new_listings_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,29,period_begin,DATE,RLE
+duckdb,duckdb_native_12,Redfin1,30,period_duration,SMALLINT,Constant
+duckdb,duckdb_native_12,Redfin1,31,period_end,DATE,RLE
+duckdb,duckdb_native_12,Redfin1,32,price_drops,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,33,price_drops_mom,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,34,price_drops_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,35,property_type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Redfin1,36,region,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Redfin1,37,region_type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Redfin1,38,sold_above_list,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,39,sold_above_list_mom,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Redfin1,40,sold_above_list_yoy,DOUBLE,ALP
+duckdb,duckdb_native_12,Redfin1,40,sold_above_list_yoy,DOUBLE,RLE
+duckdb,duckdb_native_12,Redfin1,41,state,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Redfin1,42,state_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Redfin1,42,state_code,VARCHAR,FSST
+duckdb,duckdb_native_12,Redfin1,43,table_id,INTEGER,BitPacking
+duckdb,duckdb_native_12,Rentabilidad,0,AUTOPREVENTA: Costo Fijo,"DECIMAL(18,12)",Constant
+duckdb,duckdb_native_12,Rentabilidad,1,AUTOPREVENTA: Costo Variable,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,2,AUTOPREVENTA: Costo de Devoluciones,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,3,AUTOPREVENTA: Tiempos de Venta + Traslado Autopreventa Normal,"DECIMAL(18,14)",Constant
+duckdb,duckdb_native_12,Rentabilidad,4,AUTOVENTA: Carga Paseante,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,5,AUTOVENTA: Costo Fijo,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,6,AUTOVENTA: Costo Variable,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,7,AUTOVENTA: Tiempos de Venta + Traslado Autoventa Normal,"DECIMAL(17,14)",Constant
+duckdb,duckdb_native_12,Rentabilidad,8,BODEGA: CEDIS Propio- Costos Bodega,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,9,BODEGA: Costo Arriendo Terceros,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,10,BODEGA: Costo Especialistas de Operaciones,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,11,BODEGA: Distribuidores- Costos Fijos y Variables,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,12,BODEGA: Mermas,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,13,CF,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,14,CU,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,15,Calculation_1880818214638259,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,16,Calle,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,17,Canal de Ventas,SMALLINT,RLE
+duckdb,duckdb_native_12,Rentabilidad,18,Ciudad UO,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,19,Descripción de Canal,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,20,Deudor NCB,INTEGER,Constant
+duckdb,duckdb_native_12,Rentabilidad,21,Deudor,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,22,Dias de Visita CO,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,23,Dias de Visita TA NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,24,Dias de Visita TA,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,24,Dias de Visita TA,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,25,Días de Entrega,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,26,Días de Visita PR NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,27,Días de Visita PR,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,28,Dïas de Entrega NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,29,Figura Especifica,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,30,Figura,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,31,Fijo / Dinámica,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,32,Fx CO,SMALLINT,Constant
+duckdb,duckdb_native_12,Rentabilidad,33,Fx Entrega Total NCB,SMALLINT,Constant
+duckdb,duckdb_native_12,Rentabilidad,34,Fx Entrega Total,SMALLINT,RLE
+duckdb,duckdb_native_12,Rentabilidad,35,Fx PR NCB,SMALLINT,Constant
+duckdb,duckdb_native_12,Rentabilidad,36,Fx PR,SMALLINT,RLE
+duckdb,duckdb_native_12,Rentabilidad,37,Fx TA NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,38,Fx TA,SMALLINT,RLE
+duckdb,duckdb_native_12,Rentabilidad,39,FxED,SMALLINT,RLE
+duckdb,duckdb_native_12,Rentabilidad,40,GEC NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,41,GEC,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,42,GERENTES VENTA: Coordinadores Bronces,"DECIMAL(17,11)",Constant
+duckdb,duckdb_native_12,Rentabilidad,43,GERENTES VENTA: Costo Gerente de Ventas Normal,"DECIMAL(18,11)",RLE
+duckdb,duckdb_native_12,Rentabilidad,44,GUC,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,44,GUC,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,45,Gerencia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,46,IN,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,47,Implementación Venta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,48,Jefatura de Reparto NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,49,Jefatura de Reparto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,50,Jefe de Ventas NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,51,Jefe de Ventas,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,52,Latitud AUTO PREV,"DECIMAL(16,14)",BitPacking
+duckdb,duckdb_native_12,Rentabilidad,53,Latitud,BIGINT,RLE
+duckdb,duckdb_native_12,Rentabilidad,54,Locación,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,55,Locación (copy),VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,56,Longitud AUTO PREV,"DECIMAL(15,13)",BitPacking
+duckdb,duckdb_native_12,Rentabilidad,57,Longitud,BIGINT,RLE
+duckdb,duckdb_native_12,Rentabilidad,58,MATCH PR con NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,59,MERCADEO: Costo Refrigeración,"DECIMAL(18,11)",RLE
+duckdb,duckdb_native_12,Rentabilidad,60,MERCADEO: PDE,"DECIMAL(17,11)",RLE
+duckdb,duckdb_native_12,Rentabilidad,61,MERCADEO: PDV- Descuentos Habituales,INTEGER,RLE
+duckdb,duckdb_native_12,Rentabilidad,62,MERCADEO: PDV- Descuentos No Habituales,INTEGER,BitPacking
+duckdb,duckdb_native_12,Rentabilidad,63,MERCADEO: Prorrateo Mercaderistas,DOUBLE,RLE
+duckdb,duckdb_native_12,Rentabilidad,64,Modalidad de Venta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,65,Modalidad reparto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,66,Municipio,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,67,NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,68,NIT,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,69,Nombre del Cliente,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,70,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Rentabilidad,71,ON-OFF,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,72,OP. DISTRIBUIDORES: Costo Fijo,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,73,OP. DISTRIBUIDORES: Costo Variable,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,74,OP. DISTRIBUIDORES: Filtro de Validación Costo Variable,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,75,OP. DISTRIBUIDORES: Mayoristas,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,76,OP. DISTRIBUIDORES: NO GVF,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,77,OP. DISTRIBUIDORES: Prorrateo Visitas,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,78,OTROS VENTA: Costo de Rotación Pre/Televendedores,"DECIMAL(16,12)",RLE
+duckdb,duckdb_native_12,Rentabilidad,79,PREVENTA NCB: Costo de Prevendedor NCB,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,80,PREVENTA NCB: Tiempos de Venta + Traslado Preventa NCB,"DECIMAL(16,14)",Constant
+duckdb,duckdb_native_12,Rentabilidad,81,PREVENTA: Costo de Prevendedor Normal,DOUBLE,RLE
+duckdb,duckdb_native_12,Rentabilidad,82,PREVENTA: Tiempos de Venta + Traslado Preventa Normal,"DECIMAL(17,14)",RLE
+duckdb,duckdb_native_12,Rentabilidad,83,Población Distribuidor GVF/GVI,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,84,Precio Prom. CF,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,85,Precio Prom. CU,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,86,REPARTO: Costo Supervisores,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,86,REPARTO: Costo Supervisores,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,87,REPARTO: Costo de Bodegas Secundarias,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,87,REPARTO: Costo de Bodegas Secundarias,DOUBLE,RLE
+duckdb,duckdb_native_12,Rentabilidad,88,REPARTO: Costo de Depreciación,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,89,REPARTO: Costo de Mantenimiento,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,90,REPARTO: Devoluciones,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,91,REPARTO: Merma de Ruta,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,92,REPARTO: Rutas Dinamicas- Costos Fijos,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,93,REPARTO: Rutas Dinamicas- Costos Variables,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,94,REPARTO: Rutas Fijas- Costos Fijos,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,95,REPARTO: Rutas Fijas- Costos Variables,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,96,REPARTO: Tiempos de Reparto Fijo + Variable,"DECIMAL(18,13)",BitPacking
+duckdb,duckdb_native_12,Rentabilidad,97,REPARTO: Visitas de Reparto Acumulado Ene-May,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Rentabilidad,98,Razón Social,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,99,Rentabilidad,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,100,Ruta CO,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,101,Ruta ED,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,102,Ruta PR NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,103,Ruta PR,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,104,Ruta TA NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,105,Ruta TA,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,106,Ruta de Reparto NCB,VARCHAR,FSST
+duckdb,duckdb_native_12,Rentabilidad,107,Ruta de Reparto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,108,Ruta de Venta NCB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,109,Ruta de Venta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,110,Sede Foraneo Sintec,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,111,Sede/Foráneo,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,112,T1: Cedis Propio,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,113,T1: Distruidor Tercero,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,114,TELEVENTA OFIC: Costo Televendedor Normal,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,115,TELEVENTA OFIC: Tiempos de Venta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,116,TELEVENTA: Costo Televendedor NCB,SMALLINT,Constant
+duckdb,duckdb_native_12,Rentabilidad,117,TELEVENTA: Costo de Televendedor Normal,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,117,TELEVENTA: Costo de Televendedor Normal,DOUBLE,RLE
+duckdb,duckdb_native_12,Rentabilidad,118,TELEVENTA: Tiempos de Venta Televenta NCB,SMALLINT,Constant
+duckdb,duckdb_native_12,Rentabilidad,119,TELEVENTA: Tiempos de Venta Televenta Normal,"DECIMAL(16,14)",RLE
+duckdb,duckdb_native_12,Rentabilidad,120,TOTAL BODEGA C/ARRIENDOS,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,121,TOTAL MERCADEO,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,122,TOTAL REPARTO,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,123,TOTAL T1,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,124,TOTAL VENTA,DOUBLE,RLE
+duckdb,duckdb_native_12,Rentabilidad,125,Total CdS,DOUBLE,ALPRD
+duckdb,duckdb_native_12,Rentabilidad,126,Tradicional/ Moderno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,127,UO,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,128,Util. Bruta,DOUBLE,ALP
+duckdb,duckdb_native_12,Rentabilidad,129,VENTA:  MERMA DE VENTA,DOUBLE,RLE
+duckdb,duckdb_native_12,Rentabilidad,130,"VENTA: Coord, OL, Merc. 14",INTEGER,RLE
+duckdb,duckdb_native_12,Rentabilidad,131,VENTA: Costo Renta Equipo Televenta NCB,SMALLINT,Constant
+duckdb,duckdb_native_12,Rentabilidad,132,VENTA: Costo Renta de Equipo Televenta Normal,"DECIMAL(18,12)",RLE
+duckdb,duckdb_native_12,Rentabilidad,133,VENTA: Costo Total Mercaderistas,"DECIMAL(15,11)",RLE
+duckdb,duckdb_native_12,Rentabilidad,134,VENTA: Costo de Handheld Rutas Autoventa,DOUBLE,Constant
+duckdb,duckdb_native_12,Rentabilidad,135,VENTA: Costo de Handheld Rutas NCBs,"DECIMAL(15,11)",Constant
+duckdb,duckdb_native_12,Rentabilidad,136,VENTA: Costo de Handheld Rutas Preventa,DOUBLE,RLE
+duckdb,duckdb_native_12,Rentabilidad,137,VENTA: Costos EDI,"DECIMAL(16,10)",RLE
+duckdb,duckdb_native_12,Rentabilidad,138,VENTA: Descuentos Lista de Precios,INTEGER,Constant
+duckdb,duckdb_native_12,Rentabilidad,139,Zona,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Rentabilidad,140,GEC (group),VARCHAR,Dictionary
+duckdb,duckdb_native_12,Romance,0,F1,INTEGER,BitPacking
+duckdb,duckdb_native_12,Romance,0,F1,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Romance,1,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Romance,1,Number of Records,SMALLINT,Uncompressed
+duckdb,duckdb_native_12,Romance,2,caption,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Romance,3,created_time,INTEGER,BitPacking
+duckdb,duckdb_native_12,Romance,3,created_time,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Romance,4,id,VARCHAR,FSST
+duckdb,duckdb_native_12,Romance,4,id,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Romance,5,lat,"DECIMAL(18,15)",RLE
+duckdb,duckdb_native_12,Romance,5,lat,"DECIMAL(18,15)",Uncompressed
+duckdb,duckdb_native_12,Romance,6,link,VARCHAR,FSST
+duckdb,duckdb_native_12,Romance,6,link,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Romance,7,lng,DOUBLE,RLE
+duckdb,duckdb_native_12,Romance,7,lng,DOUBLE,Uncompressed
+duckdb,duckdb_native_12,Romance,8,location,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Romance,8,location,VARCHAR,FSST
+duckdb,duckdb_native_12,Romance,8,location,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Romance,9,tags,VARCHAR,FSST
+duckdb,duckdb_native_12,Romance,9,tags,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Romance,10,term,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Romance,10,term,VARCHAR,Uncompressed
+duckdb,duckdb_native_12,Romance,11,user,BIGINT,BitPacking
+duckdb,duckdb_native_12,Romance,11,user,BIGINT,Uncompressed
+duckdb,duckdb_native_12,SalariesFrance,0,A129,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,1,A129_LIBCOURT,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,2,A129_LIBCOURT_PJ,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,3,A129_LIB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,4,A88,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,5,A88_LIB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,6,ADECCO_NB_CANDIDATS,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,SalariesFrance,7,ADECCO_NB_CAND_METIERS_PROCHES,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,8,ADECCO_SALAIRES_BRUTS,"DECIMAL(18,14)",RLE
+duckdb,duckdb_native_12,SalariesFrance,9,AG_25_29,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,9,AG_25_29,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,10,AG_30_39,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,10,AG_30_39,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,11,AG_40_49,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,11,AG_40_49,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,12,AG_50_54,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,12,AG_50_54,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,13,AG_M25,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,13,AG_M25,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,14,AG_P55,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,14,AG_P55,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,15,APPRENTI,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,15,APPRENTI,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,16,BMO_DIFFICILE,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,17,BMO_INTENTIONS,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,18,BMO_SAISON,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,18,BMO_SAISON,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,19,CODGEO_PRINCIPAL,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,20,CP_PRINCIPAL,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,21,Calculation_163536984210948109,SMALLINT,Constant
+duckdb,duckdb_native_12,SalariesFrance,22,Calculation_392657618632466432,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,22,Calculation_392657618632466432,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,23,Calculation_393783518250995712,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,24,EMBAUCHES_GLOBAL,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,24,EMBAUCHES_GLOBAL,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,25,EMBAUCHES_NM1,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,26,EMBAUCHES_NP1,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,26,EMBAUCHES_NP1,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,27,EMBAUCHE_CDD,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,27,EMBAUCHE_CDD,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,28,EMBAUCHE_CDI,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,28,EMBAUCHE_CDI,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,29,EMPSAL_NM1,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,29,EMPSAL_NM1,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,30,EMPSAL_NP1,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,30,EMPSAL_NP1,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,30,EMPSAL_NP1,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,31,FEMMES,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,32,HOMMES,DOUBLE,ALPRD
+duckdb,duckdb_native_12,SalariesFrance,32,HOMMES,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,33,INTERIM_NM1,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,33,INTERIM_NM1,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,34,INTERIM_NP1,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,34,INTERIM_NP1,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,35,LIBDOM1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,36,LIBDOM2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,37,LIBELLES_ROME_BONNE_FORMATION,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,38,LIBROME_MINUSCULE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,39,Latitude,"DECIMAL(15,13)",BitPacking
+duckdb,duckdb_native_12,SalariesFrance,40,Longitude,DOUBLE,ALP
+duckdb,duckdb_native_12,SalariesFrance,41,NB_DE_PE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,SalariesFrance,42,NB_ETS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,SalariesFrance,43,NOM_PAGES_JAUNES,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,44,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,SalariesFrance,45,REG_LIB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,46,RENSEIGNE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,47,REPERE1 (copie),SMALLINT,Constant
+duckdb,duckdb_native_12,SalariesFrance,48,ROME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,49,ROME_LIB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,50,SALAIRE_BRUT,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,51,SALAIRE_VF,DOUBLE,RLE
+duckdb,duckdb_native_12,SalariesFrance,52,TK_SIRET,SMALLINT,BitPacking
+duckdb,duckdb_native_12,SalariesFrance,53,UIMM_FAMILLES,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,53,UIMM_FAMILLES,VARCHAR,FSST
+duckdb,duckdb_native_12,SalariesFrance,54,ZE2010,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,55,ZE2010_LIB,VARCHAR,Dictionary
+duckdb,duckdb_native_12,SalariesFrance,56,Calculation_490892384732147714,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,0,AGRUPADOR,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,1,Año Ingreso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,2,CLASE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,3,COD DELITO,DOUBLE,ALP
+duckdb,duckdb_native_12,TableroSistemaPenal,4,COD. REGIÓN,SMALLINT,RLE
+duckdb,duckdb_native_12,TableroSistemaPenal,5,COMUNA,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,6,CORTE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,7,CREA RUC,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,8,Calculation_0520821013255406,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,9,Calculation_0640821194248948,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,10,Calculation_7430825124450529,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,TableroSistemaPenal,11,Cod. Tribunal,SMALLINT,BitPacking
+duckdb,duckdb_native_12,TableroSistemaPenal,12,DELITO,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,13,Forma Inicio,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,14,INGRESOS,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,TableroSistemaPenal,15,Ingresos _ Garantia (copy),"DECIMAL(3,0)",Constant
+duckdb,duckdb_native_12,TableroSistemaPenal,16,Jurisdicción,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,17,LATITUD,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,18,LONGITUD,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,19,Mes Ingreso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,20,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,TableroSistemaPenal,21,PAÍS,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,22,REGIÓN,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,23,RPA,VARCHAR,FSST
+duckdb,duckdb_native_12,TableroSistemaPenal,24,TIPO,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TableroSistemaPenal,25,TIP_TRIB,SMALLINT,Constant
+duckdb,duckdb_native_12,TableroSistemaPenal,26,TRIBUNAL,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,0,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Taxpayer,1,average_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Taxpayer,2,average_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Taxpayer,3,average_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Taxpayer,4,bene_day_srvc_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Taxpayer,5,bene_unique_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Taxpayer,6,hcpcs_code,INTEGER,RLE
+duckdb,duckdb_native_12,Taxpayer,7,hcpcs_description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,8,line_srvc_cnt,INTEGER,BitPacking
+duckdb,duckdb_native_12,Taxpayer,9,medicare_participation_indicator,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,10,npi,INTEGER,Uncompressed
+duckdb,duckdb_native_12,Taxpayer,11,nppes_credentials,VARCHAR,FSST
+duckdb,duckdb_native_12,Taxpayer,12,nppes_entity_code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,13,nppes_provider_city,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,14,nppes_provider_country,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,15,nppes_provider_first_name,VARCHAR,FSST
+duckdb,duckdb_native_12,Taxpayer,16,nppes_provider_gender,VARCHAR,FSST
+duckdb,duckdb_native_12,Taxpayer,17,nppes_provider_last_org_name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,17,nppes_provider_last_org_name,VARCHAR,FSST
+duckdb,duckdb_native_12,Taxpayer,18,nppes_provider_mi,VARCHAR,FSST
+duckdb,duckdb_native_12,Taxpayer,19,nppes_provider_state,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,20,nppes_provider_street1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,21,nppes_provider_street2,VARCHAR,FSST
+duckdb,duckdb_native_12,Taxpayer,22,nppes_provider_zip,INTEGER,BitPacking
+duckdb,duckdb_native_12,Taxpayer,23,place_of_service,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,24,provider_type,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Taxpayer,25,stdev_Medicare_allowed_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Taxpayer,26,stdev_Medicare_payment_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Taxpayer,27,stdev_submitted_chrg_amt,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,0,ACTIVATION_DATE,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,Telco,1,ARPU_P1,"DECIMAL(10,6)",BitPacking
+duckdb,duckdb_native_12,Telco,2,ARPU_P2,"DECIMAL(10,6)",BitPacking
+duckdb,duckdb_native_12,Telco,3,ARPU_P3,"DECIMAL(10,6)",BitPacking
+duckdb,duckdb_native_12,Telco,4,ARPU_P4,"DECIMAL(10,6)",BitPacking
+duckdb,duckdb_native_12,Telco,5,ARPU_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,6,BALANCE_END_P2,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,7,CHARGD_SMS_P1,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,8,CHARGD_SMS_P2,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,9,CHARGD_SMS_P3,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,10,CHARGD_SMS_P4,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,11,CHARGD_SMS_P6,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,12,CHRGD_CALLS_P1,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,13,CHRGD_CALLS_P2,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,14,CHRGD_CALLS_P3,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,15,CHRGD_CALLS_P4,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,16,CHRGD_CALLS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,17,CHRGD_MINS_P1,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,18,CHRGD_MINS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,19,CHRGD_MINS_P3,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,20,CHRGD_MINS_P4,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,21,CHRGD_MINS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,22,CHRGD_REV_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,23,CHRGD_REV_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,24,CHRGD_REV_P3,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,25,CHRGD_REV_P4,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,26,CHRGD_REV_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,27,CHURN,BOOLEAN,Constant
+duckdb,duckdb_native_12,Telco,28,FREE_CALLS_P1,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,29,FREE_CALLS_P2,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,30,FREE_CALLS_P3,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,31,FREE_CALLS_P4,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,32,FREE_CALLS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,33,FREE_MINS_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,34,FREE_MINS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,35,FREE_MINS_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,36,FREE_MINS_P4,"DECIMAL(7,2)",RLE
+duckdb,duckdb_native_12,Telco,37,FREE_MINS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,38,FREE_SMS_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,39,FREE_SMS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,40,FREE_SMS_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,41,FREE_SMS_P4,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,42,FREE_SMS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,43,IDD_CALLS_P1,"DECIMAL(4,0)",RLE
+duckdb,duckdb_native_12,Telco,44,IDD_CALLS_P2,"DECIMAL(4,0)",RLE
+duckdb,duckdb_native_12,Telco,45,IDD_CALLS_P3,"DECIMAL(3,0)",RLE
+duckdb,duckdb_native_12,Telco,46,IDD_CALLS_P4,"DECIMAL(3,0)",RLE
+duckdb,duckdb_native_12,Telco,47,IDD_CALLS_P6,"DECIMAL(4,0)",RLE
+duckdb,duckdb_native_12,Telco,48,IDD_MINS_P1,"DECIMAL(7,2)",RLE
+duckdb,duckdb_native_12,Telco,49,IDD_MINS_P2,"DECIMAL(7,2)",RLE
+duckdb,duckdb_native_12,Telco,50,IDD_MINS_P3,"DECIMAL(6,2)",RLE
+duckdb,duckdb_native_12,Telco,51,IDD_MINS_P4,"DECIMAL(6,2)",RLE
+duckdb,duckdb_native_12,Telco,52,IDD_MINS_P6,"DECIMAL(7,2)",RLE
+duckdb,duckdb_native_12,Telco,53,IDD_REV_P1,DOUBLE,RLE
+duckdb,duckdb_native_12,Telco,54,IDD_REV_P2,DOUBLE,RLE
+duckdb,duckdb_native_12,Telco,55,IDD_REV_P3,DOUBLE,RLE
+duckdb,duckdb_native_12,Telco,56,IDD_REV_P4,DOUBLE,RLE
+duckdb,duckdb_native_12,Telco,57,IDD_REV_P6,DOUBLE,RLE
+duckdb,duckdb_native_12,Telco,58,INCOMING_INC_REV_P1,"DECIMAL(9,3)",BitPacking
+duckdb,duckdb_native_12,Telco,59,INCOMING_INC_REV_P2,"DECIMAL(12,6)",BitPacking
+duckdb,duckdb_native_12,Telco,60,INCOMING_INC_REV_P3,"DECIMAL(11,6)",BitPacking
+duckdb,duckdb_native_12,Telco,61,INCOMING_INC_REV_P4,"DECIMAL(11,6)",BitPacking
+duckdb,duckdb_native_12,Telco,62,INCOMING_INC_REV_P6,"DECIMAL(12,6)",BitPacking
+duckdb,duckdb_native_12,Telco,63,INCOMING_TOTAL_CALLS_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,64,INCOMING_TOTAL_CALLS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,65,INCOMING_TOTAL_CALLS_P3,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,66,INCOMING_TOTAL_CALLS_P4,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,67,INCOMING_TOTAL_CALLS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,68,LAST_RCHRG_AMT,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,69,LST_ACTVTY_DT,TIMESTAMP,RLE
+duckdb,duckdb_native_12,Telco,70,LST_RCHRG_DATE,TIMESTAMP,RLE
+duckdb,duckdb_native_12,Telco,71,MSISDN,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,72,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Telco,73,OFFNET_CALLS_P1,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,74,OFFNET_CALLS_P2,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,75,OFFNET_CALLS_P3,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,76,OFFNET_CALLS_P4,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,77,OFFNET_CALLS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,78,OFFNET_MINS_P1,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,79,OFFNET_MINS_P2,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,80,OFFNET_MINS_P3,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,81,OFFNET_MINS_P4,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,82,OFFNET_MINS_P6,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,83,OFFNET_REV_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,84,OFFNET_REV_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,85,OFFNET_REV_P3,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,86,OFFNET_REV_P4,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,87,OFFNET_REV_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,88,ONNET_CALLS_P1,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,89,ONNET_CALLS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,90,ONNET_CALLS_P3,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,91,ONNET_CALLS_P4,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,92,ONNET_CALLS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,93,ONNET_MINS_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,94,ONNET_MINS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,95,ONNET_MINS_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,96,ONNET_MINS_P4,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,97,ONNET_MINS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,98,ONNET_REV_P1,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,99,ONNET_REV_P2,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,100,ONNET_REV_P3,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,101,ONNET_REV_P4,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,102,ONNET_REV_P6,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,103,PACKAGE_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Telco,104,RCHRG_AMT_EXP_DATE,TIMESTAMP,RLE
+duckdb,duckdb_native_12,Telco,105,RECHRG_INC_MIN_USED_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,106,RECHRG_INC_MIN_USED_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,107,RECHRG_INC_MIN_USED_P3,"DECIMAL(9,4)",BitPacking
+duckdb,duckdb_native_12,Telco,108,RECHRG_INC_MIN_USED_P4,"DECIMAL(9,4)",BitPacking
+duckdb,duckdb_native_12,Telco,109,RECHRG_INC_MIN_USED_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,110,RECHRG_TOTAL_LOAD_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,111,RECHRG_TOTAL_LOAD_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,112,RECHRG_TOTAL_LOAD_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,113,RECHRG_TOTAL_LOAD_P4,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,114,RECHRG_TOTAL_LOAD_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,115,RECHRG_TOTAL_SUBS_P1,"DECIMAL(1,0)",BitPacking
+duckdb,duckdb_native_12,Telco,116,RECHRG_TOTAL_SUBS_P2,"DECIMAL(1,0)",BitPacking
+duckdb,duckdb_native_12,Telco,117,RECHRG_TOTAL_SUBS_P3,"DECIMAL(1,0)",BitPacking
+duckdb,duckdb_native_12,Telco,118,RECHRG_TOTAL_SUBS_P4,"DECIMAL(1,0)",RLE
+duckdb,duckdb_native_12,Telco,119,RECHRG_TOTAL_SUBS_P6,"DECIMAL(1,0)",BitPacking
+duckdb,duckdb_native_12,Telco,120,RECHRG_TOTAL_TRANS_P1,"DECIMAL(3,0)",BitPacking
+duckdb,duckdb_native_12,Telco,121,RECHRG_TOTAL_TRANS_P2,"DECIMAL(3,0)",BitPacking
+duckdb,duckdb_native_12,Telco,122,RECHRG_TOTAL_TRANS_P3,"DECIMAL(3,0)",BitPacking
+duckdb,duckdb_native_12,Telco,123,RECHRG_TOTAL_TRANS_P4,"DECIMAL(3,0)",BitPacking
+duckdb,duckdb_native_12,Telco,124,RECHRG_TOTAL_TRANS_P6,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,125,REVENUE_SMS_P1,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,126,REVENUE_SMS_P2,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,127,REVENUE_SMS_P3,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,128,REVENUE_SMS_P4,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,129,REVENUE_SMS_P6,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,130,STATUS_END_P2,"DECIMAL(1,0)",BitPacking
+duckdb,duckdb_native_12,Telco,131,TOTAL_CALLS_P1,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,132,TOTAL_CALLS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,133,TOTAL_CALLS_P3,"DECIMAL(4,0)",BitPacking
+duckdb,duckdb_native_12,Telco,134,TOTAL_CALLS_P4,"DECIMAL(5,0)",BitPacking
+duckdb,duckdb_native_12,Telco,135,TOTAL_CALLS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,136,TOTAL_CALLS_REV_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,137,TOTAL_CALLS_REV_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,138,TOTAL_CALLS_REV_P3,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,139,TOTAL_CALLS_REV_P4,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,140,TOTAL_CALLS_REV_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,141,TOTAL_INCOMING_MIN_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,142,TOTAL_INCOMING_MIN_P2,"DECIMAL(10,4)",BitPacking
+duckdb,duckdb_native_12,Telco,143,TOTAL_INCOMING_MIN_P3,"DECIMAL(9,4)",BitPacking
+duckdb,duckdb_native_12,Telco,144,TOTAL_INCOMING_MIN_P4,"DECIMAL(9,4)",BitPacking
+duckdb,duckdb_native_12,Telco,145,TOTAL_INCOMING_MIN_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,146,TOTAL_INCOMING_REV_P1,"DECIMAL(9,3)",BitPacking
+duckdb,duckdb_native_12,Telco,147,TOTAL_INCOMING_REV_P2,"DECIMAL(12,6)",BitPacking
+duckdb,duckdb_native_12,Telco,148,TOTAL_INCOMING_REV_P3,"DECIMAL(11,6)",BitPacking
+duckdb,duckdb_native_12,Telco,149,TOTAL_INCOMING_REV_P4,"DECIMAL(11,6)",BitPacking
+duckdb,duckdb_native_12,Telco,150,TOTAL_INCOMING_REV_P6,"DECIMAL(12,6)",BitPacking
+duckdb,duckdb_native_12,Telco,151,TOTAL_MINS_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,152,TOTAL_MINS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,153,TOTAL_MINS_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,154,TOTAL_MINS_P4,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,155,TOTAL_MINS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,156,TOTAL_OUTGOING_MIN_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,157,TOTAL_OUTGOING_MIN_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,158,TOTAL_OUTGOING_MIN_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,159,TOTAL_OUTGOING_MIN_P4,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,160,TOTAL_OUTGOING_MIN_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,161,TOTAL_SMS_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,162,TOTAL_SMS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,163,TOTAL_SMS_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,164,TOTAL_SMS_P4,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,165,TOTAL_SMS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,166,TOTAL_VAS_REV_P1,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,167,TOTAL_VAS_REV_P2,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,168,TOTAL_VAS_REV_P3,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,169,TOTAL_VAS_REV_P4,"DECIMAL(6,2)",BitPacking
+duckdb,duckdb_native_12,Telco,170,TOTAL_VAS_REV_P6,"DECIMAL(7,2)",BitPacking
+duckdb,duckdb_native_12,Telco,171,TOTA_OUTGOING_REV_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,172,TOTA_OUTGOING_REV_P2,"DECIMAL(10,5)",BitPacking
+duckdb,duckdb_native_12,Telco,173,TOTA_OUTGOING_REV_P3,"DECIMAL(10,5)",BitPacking
+duckdb,duckdb_native_12,Telco,174,TOTA_OUTGOING_REV_P4,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,175,TOTA_OUTGOING_REV_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,176,UNIQUE_SUBS_SMS_P1,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,177,UNIQUE_SUBS_SMS_P2,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,178,UNIQUE_SUBS_SMS_P3,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,179,UNIQUE_SUBS_SMS_P4,DOUBLE,ALP
+duckdb,duckdb_native_12,Telco,180,UNIQUE_SUBS_SMS_P6,DOUBLE,ALP
+duckdb,duckdb_native_12,TrainsUK1,0,Average Lateness,DOUBLE,ALPRD
+duckdb,duckdb_native_12,TrainsUK1,1,Calculation_2040623161253421,"DECIMAL(4,2)",BitPacking
+duckdb,duckdb_native_12,TrainsUK1,2,Calculation_2890421151640665,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,2,Calculation_2890421151640665,VARCHAR,FSST
+duckdb,duckdb_native_12,TrainsUK1,3,Calculation_3330422103625946,"DECIMAL(17,16)",BitPacking
+duckdb,duckdb_native_12,TrainsUK1,4,Engineering Allowance (mins),SMALLINT,RLE
+duckdb,duckdb_native_12,TrainsUK1,5,Headcode,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,6,Median Lateness,"DECIMAL(4,2)",BitPacking
+duckdb,duckdb_native_12,TrainsUK1,7,Operator Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,8,Operator,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,9,Pathing Allowance (mins),"DECIMAL(3,1)",RLE
+duckdb,duckdb_native_12,TrainsUK1,10,Performance Allowance (mins),"DECIMAL(2,1)",RLE
+duckdb,duckdb_native_12,TrainsUK1,11,Planned Dest Location Full Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,12,Planned Origin Location Full Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,13,Punctuality Threshold,SMALLINT,RLE
+duckdb,duckdb_native_12,TrainsUK1,14,RT%,"DECIMAL(18,17)",Uncompressed
+duckdb,duckdb_native_12,TrainsUK1,15,Ranking,SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK1,16,Section Start Location Full Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,17,Section Start Location Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,18,Time-to-10%,"DECIMAL(17,16)",BitPacking
+duckdb,duckdb_native_12,TrainsUK1,19,Time-to-2%,"DECIMAL(18,17)",Uncompressed
+duckdb,duckdb_native_12,TrainsUK1,20,Time-to-5%,"DECIMAL(17,16)",BitPacking
+duckdb,duckdb_native_12,TrainsUK1,21,Timetable,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,22,Train Count,SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK1,23,v_Headcode Description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,24,v_Section_WTT_Time,TIME,RLE
+duckdb,duckdb_native_12,TrainsUK1,25,v_WTT and Section Name and Timing Event,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,25,v_WTT and Section Name and Timing Event,VARCHAR,FSST
+duckdb,duckdb_native_12,TrainsUK1,26,Calculation_2480421151322357,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK1,27,Calculation_0430624152715434,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,0,Actual Total Distance Miles,"DECIMAL(5,2)",BitPacking
+duckdb,duckdb_native_12,TrainsUK2,1,Date,TIMESTAMP,RLE
+duckdb,duckdb_native_12,TrainsUK2,2,Financial Year & Period,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,3,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,TrainsUK2,4,Operator,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,5,Planned Dest Actual Datetime,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,6,Planned Dest GBTT Datetime,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,7,Planned Dest Stanox Description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,8,Planned Dest Stanox,INTEGER,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,9,Planned Dest WTT Datetime,TIMESTAMP,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,10,Planned Orig Stanox Description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,11,Planned Orig Stanox,INTEGER,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,12,Planned Origin Actual Datetime,TIMESTAMP,RLE
+duckdb,duckdb_native_12,TrainsUK2,13,Planned Origin GBTT Datetime,TIMESTAMP,RLE
+duckdb,duckdb_native_12,TrainsUK2,14,Planned Origin WTT Datetime,TIMESTAMP,RLE
+duckdb,duckdb_native_12,TrainsUK2,15,Planned Total Distance Miles,"DECIMAL(5,2)",BitPacking
+duckdb,duckdb_native_12,TrainsUK2,16,Service Group Code,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,17,Service Group Description,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,18,TSC,INTEGER,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,19,Train ID,VARCHAR,FSST
+duckdb,duckdb_native_12,TrainsUK2,20,v_CaSL Flag,SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,21,v_Dest Lateness (GBTT),SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,22,v_Dest Lateness (WTT),"DECIMAL(4,1)",BitPacking
+duckdb,duckdb_native_12,TrainsUK2,23,v_Full Cancellation Flag,SMALLINT,RLE
+duckdb,duckdb_native_12,TrainsUK2,24,v_Origin Lateness (GBTT),SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,25,v_Origin Lateness (WTT),SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,26,v_PPM Pass Flag,SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,27,v_RT Flag,SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,28,v_Sector,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,29,v_Unique Train ID,VARCHAR,FSST
+duckdb,duckdb_native_12,TrainsUK2,30,c_Origin Time (GBTT) (copy),VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,31,Calculation_2510610113130467,SMALLINT,RLE
+duckdb,duckdb_native_12,TrainsUK2,32,Calculation_4220604162631191,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,33,Calculation_5580608170646388,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,34,Calculation_6080608165132814,VARCHAR,Dictionary
+duckdb,duckdb_native_12,TrainsUK2,34,Calculation_6080608165132814,VARCHAR,FSST
+duckdb,duckdb_native_12,TrainsUK2,35,Calculation_9230610113105724,SMALLINT,BitPacking
+duckdb,duckdb_native_12,TrainsUK2,36,Date (group),TIMESTAMP,Constant
+duckdb,duckdb_native_12,USCensus,0,ACCESS,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,1,ACR,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,2,ADJHSG,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,3,ADJINC,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,4,ADJINC1,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,5,AGEP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,6,AGS,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,7,ANC1P,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,8,ANC2P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,9,ANC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,10,BATH,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,11,BDSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,12,BLD,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,13,BROADBND,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,14,BUS,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,15,CITWP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,16,CIT,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,17,COMPOTHX,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,18,CONP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,19,COW,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,20,DDRS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,21,DEAR,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,22,DECADE,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,23,DEYE,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,24,DIALUP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,25,DIS,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,26,DIVISION,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,27,DOUT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,28,DPHY,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,29,DRATX,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,30,DRAT,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,31,DREM,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,32,DRIVESP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,33,DSL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,34,ELEP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,35,ENG,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,36,ESP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,37,ESR,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,38,FACCESSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,39,FACRP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,40,FAGEP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,41,FAGSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,42,FANCP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,43,FBATHP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,44,FBDSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,45,FBLDP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,46,FBROADBNDP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,47,FBUSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,48,FCITP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,49,FCITWP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,50,FCOMPOTHXP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,51,FCONP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,52,FCOWP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,53,FDDRSP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,54,FDEARP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,55,FDEYEP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,56,FDIALUPP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,57,FDISP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,58,FDOUTP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,59,FDPHYP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,60,FDRATP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,61,FDRATXP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,62,FDREMP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,63,FDSLP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,64,FELEP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,65,FENGP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,66,FER,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,67,FESRP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,68,FES,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,69,FFERP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,70,FFIBEROPP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,71,FFINCP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,72,FFODP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,73,FFSP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,74,FFULP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,75,FGASP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,76,FGCLP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,77,FGCMP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,78,FGCRP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,79,FGRNTP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,80,FHANDHELDP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,81,FHFLP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,82,FHINCP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,83,FHINS1P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,84,FHINS2P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,85,FHINS3C,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,86,FHINS3P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,87,FHINS4C,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,88,FHINS4P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,89,FHINS5C,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,90,FHINS5P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,91,FHINS6P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,92,FHINS7P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,93,FHISP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,94,FIBEROP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,95,FINCP,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,96,FINDP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,97,FINSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,98,FINTP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,99,FJWDP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,100,FJWMNP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,101,FJWRIP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,102,FJWTRP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,103,FKITP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,104,FLANP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,105,FLANXP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,106,FLAPTOPP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,107,FMARHDP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,108,FMARHMP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,109,FMARHTP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,110,FMARHWP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,111,FMARHYP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,112,FMARP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,113,FMHP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,114,FMIGP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,115,FMIGSP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,116,FMILPP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,117,FMILSP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,118,FMODEMP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,119,FMRGIP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,120,FMRGP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,121,FMRGTP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,122,FMRGXP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,123,FMVP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,124,FOCCP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,125,FOD1P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,126,FOD2P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,127,FOIP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,128,FOTHSVCEXP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,129,FPAP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,130,FPARC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,131,FPERNP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,132,FPINCP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,133,FPLMP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,134,FPOBP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,135,FPOWSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,136,FPRIVCOVP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,137,FPUBCOVP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,138,FRACP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,139,FREFRP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,140,FRELP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,141,FRETP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,142,FRMSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,143,FRNTMP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,144,FRNTP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,145,FRWATPRP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,146,FRWATP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,147,FSATELLITEP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,148,FSCHGP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,149,FSCHLP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,150,FSCHP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,151,FSEMP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,152,FSEXP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,153,FSINKP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,154,FSMOCP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,155,FSMP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,156,FSMXHP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,157,FSMXSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,158,FSSIP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,158,FSSIP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,159,FSSP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,160,FSTOVP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,161,FS,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,162,FTAXP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,163,FTELP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,164,FTENP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,165,FTOILP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,166,FULP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,167,FVACSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,168,FVALP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,169,FVEHP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,170,FWAGP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,171,FWATP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,172,FWKHP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,173,FWKLP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,174,FWKWP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,175,FWRKP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,176,FYBLP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,177,FYOEP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,178,GASP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,179,GCL,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,180,GCM,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,181,GCR,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,182,GRNTP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,183,GRPIP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,184,HANDHELD,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,185,HFL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,186,HHL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,187,HHT,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,188,HICOV,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,189,HINCP,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,190,HINS1,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,191,HINS2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,192,HINS3,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,192,HINS3,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,193,HINS4,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,194,HINS5,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,195,HINS6,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,196,HINS7,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,197,HISP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,198,HUGCL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,199,HUPAC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,200,HUPAOC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,201,HUPARC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,202,INDP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,203,INSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,204,INTP,INTEGER,RLE
+duckdb,duckdb_native_12,USCensus,205,JWAP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,206,JWDP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,207,JWMNP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,208,JWRIP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,209,JWTR,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,210,KIT,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,211,LANP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,212,LANX,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,213,LAPTOP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,214,LNGI,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,215,MARHD,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,216,MARHM,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,217,MARHT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,218,MARHW,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,219,MARHYP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,220,MAR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,221,MHP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,222,MIGPUMA,INTEGER,RLE
+duckdb,duckdb_native_12,USCensus,223,MIGSP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,224,MIG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,225,MIL,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,226,MLPA,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,227,MLPB,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,228,MLPCD,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,229,MLPE,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,230,MLPFG,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,231,MLPH,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,232,MLPI,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,233,MLPJ,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,234,MLPK,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,235,MODEM,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,236,MRGI,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,237,MRGP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,238,MRGT,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,239,MRGX,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,240,MSP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,241,MULTG,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,242,MV,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,243,NAICSP,VARCHAR,Dictionary
+duckdb,duckdb_native_12,USCensus,244,NATIVITY,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,245,NOC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,246,NOP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,247,NPF,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,248,NPP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,249,NP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,250,NRC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,251,NR,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,252,NWAB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,253,NWAV,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,254,NWLA,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,255,NWLK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,256,NWRE,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,257,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,258,OCCP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,259,OCPIP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,260,OC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,261,OIP,INTEGER,RLE
+duckdb,duckdb_native_12,USCensus,262,OTHSVCEX,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,263,PAOC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,264,PAP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,265,PARTNER,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,266,PERNP,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,267,PINCP,INTEGER,RLE
+duckdb,duckdb_native_12,USCensus,268,PLM,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,269,POBP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,270,POVPIP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,271,POWPUMA,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,272,POWSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,273,PRIVCOV,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,274,PSF,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,275,PUBCOV,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,276,PUMA,INTEGER,BitPacking
+duckdb,duckdb_native_12,USCensus,277,PUMA1,INTEGER,BitPacking
+duckdb,duckdb_native_12,USCensus,278,PWGTP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,279,QTRBIR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,280,R18,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,281,R60,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,282,R65,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,283,RAC1P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,284,RAC2P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,285,RAC3P,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,286,RACAIAN,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,287,RACASN,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,288,RACBLK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,289,RACNH,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,290,RACNUM,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,291,RACPI,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,292,RACSOR,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,293,RACWHT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,294,RC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,295,REFR,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,296,REGION,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,297,RELP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,298,RESMODE,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,299,RETP,INTEGER,RLE
+duckdb,duckdb_native_12,USCensus,300,RMSP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,301,RNTM,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,302,RNTP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,303,RT,VARCHAR,Dictionary
+duckdb,duckdb_native_12,USCensus,304,RT1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,USCensus,305,RWATPR,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,306,RWAT,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,307,SATELLITE,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,308,SCHG,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,309,SCHL,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,310,SCH,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,311,SCIENGP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,312,SCIENGRLP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,313,SEMP,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,314,SERIALNO,INTEGER,BitPacking
+duckdb,duckdb_native_12,USCensus,315,SERIALNO1,INTEGER,BitPacking
+duckdb,duckdb_native_12,USCensus,316,SEX,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,317,SFN,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,318,SFR,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,319,SINK,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,320,SMOCP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,321,SMP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,322,SMX,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,323,SOCP,VARCHAR,Dictionary
+duckdb,duckdb_native_12,USCensus,324,SPORDER,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,325,SRNT,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,326,SSIP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,327,SSMC,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,328,SSP,INTEGER,RLE
+duckdb,duckdb_native_12,USCensus,329,ST,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,330,STOV,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,331,ST1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,332,SVAL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,333,TAXP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,334,TEL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,335,TEN,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,336,TOIL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,337,TYPE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,338,Table Name,VARCHAR,Dictionary
+duckdb,duckdb_native_12,USCensus,339,Table Name1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,USCensus,340,VACS,BIGINT,Constant
+duckdb,duckdb_native_12,USCensus,341,VALP,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,342,VEH,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,343,VPS,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,344,WAGP,INTEGER,Constant
+duckdb,duckdb_native_12,USCensus,345,WAOB,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,346,WATP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,347,WGTP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,348,WIF,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,349,WKEXREL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,350,WKHP,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,351,WKL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,352,WKW,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,353,WORKSTAT,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,354,WRK,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,355,YBL,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,356,YOEP,SMALLINT,RLE
+duckdb,duckdb_native_12,USCensus,357,pwgtp10,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,358,pwgtp11,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,359,pwgtp12,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,360,pwgtp13,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,361,pwgtp14,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,362,pwgtp15,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,363,pwgtp16,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,364,pwgtp17,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,365,pwgtp18,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,366,pwgtp19,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,367,pwgtp1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,368,pwgtp20,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,369,pwgtp21,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,370,pwgtp22,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,371,pwgtp23,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,372,pwgtp24,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,373,pwgtp25,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,374,pwgtp26,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,375,pwgtp27,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,376,pwgtp28,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,377,pwgtp29,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,378,pwgtp2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,379,pwgtp30,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,380,pwgtp31,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,381,pwgtp32,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,382,pwgtp33,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,383,pwgtp34,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,384,pwgtp35,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,385,pwgtp36,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,386,pwgtp37,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,387,pwgtp38,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,388,pwgtp39,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,389,pwgtp3,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,390,pwgtp40,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,391,pwgtp41,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,392,pwgtp42,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,393,pwgtp43,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,394,pwgtp44,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,395,pwgtp45,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,396,pwgtp46,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,397,pwgtp47,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,398,pwgtp48,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,399,pwgtp49,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,400,pwgtp4,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,401,pwgtp50,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,402,pwgtp51,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,403,pwgtp52,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,404,pwgtp53,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,405,pwgtp54,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,406,pwgtp55,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,407,pwgtp56,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,408,pwgtp57,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,409,pwgtp58,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,410,pwgtp59,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,411,pwgtp5,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,412,pwgtp60,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,413,pwgtp61,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,414,pwgtp62,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,415,pwgtp63,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,416,pwgtp64,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,417,pwgtp65,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,418,pwgtp66,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,419,pwgtp67,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,420,pwgtp68,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,421,pwgtp69,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,422,pwgtp6,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,423,pwgtp70,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,424,pwgtp71,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,425,pwgtp72,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,426,pwgtp73,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,427,pwgtp74,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,428,pwgtp75,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,429,pwgtp76,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,430,pwgtp77,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,431,pwgtp78,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,432,pwgtp79,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,433,pwgtp7,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,434,pwgtp80,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,435,pwgtp8,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,436,pwgtp9,SMALLINT,BitPacking
+duckdb,duckdb_native_12,USCensus,437,wgtp10,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,438,wgtp11,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,439,wgtp12,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,440,wgtp13,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,441,wgtp14,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,442,wgtp15,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,443,wgtp16,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,444,wgtp17,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,445,wgtp18,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,446,wgtp19,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,447,wgtp1,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,448,wgtp20,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,449,wgtp21,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,450,wgtp22,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,451,wgtp23,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,452,wgtp24,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,453,wgtp25,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,454,wgtp26,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,455,wgtp27,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,456,wgtp28,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,457,wgtp29,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,458,wgtp2,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,459,wgtp30,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,460,wgtp31,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,461,wgtp32,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,462,wgtp33,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,463,wgtp34,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,464,wgtp35,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,465,wgtp36,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,466,wgtp37,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,467,wgtp38,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,468,wgtp39,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,469,wgtp3,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,470,wgtp40,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,471,wgtp41,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,472,wgtp42,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,473,wgtp43,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,474,wgtp44,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,475,wgtp45,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,476,wgtp46,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,477,wgtp47,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,478,wgtp48,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,479,wgtp49,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,480,wgtp4,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,481,wgtp50,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,482,wgtp51,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,483,wgtp52,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,484,wgtp53,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,485,wgtp54,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,486,wgtp55,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,487,wgtp56,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,488,wgtp57,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,489,wgtp58,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,490,wgtp59,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,491,wgtp5,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,492,wgtp60,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,493,wgtp61,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,494,wgtp62,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,495,wgtp63,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,496,wgtp64,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,497,wgtp65,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,498,wgtp66,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,499,wgtp67,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,500,wgtp68,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,501,wgtp69,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,502,wgtp6,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,503,wgtp70,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,504,wgtp71,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,505,wgtp72,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,506,wgtp73,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,507,wgtp74,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,508,wgtp75,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,509,wgtp76,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,510,wgtp77,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,511,wgtp78,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,512,wgtp79,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,513,wgtp7,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,514,wgtp80,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,515,wgtp8,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,516,wgtp9,SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,517,Wagp (bin),SMALLINT,Constant
+duckdb,duckdb_native_12,USCensus,518,Agep (bin),SMALLINT,BitPacking
+duckdb,duckdb_native_12,Uberlandia,0,Calculation_838513981443702785,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,1,Calculation_838513981462429699,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,2,Codigo Diploma/Certificado,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,3,Cor da Pele,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,4,Data Diploma/Certificado,TIMESTAMP,RLE
+duckdb,duckdb_native_12,Uberlandia,5,Data Pré-Matricula,DATE,RLE
+duckdb,duckdb_native_12,Uberlandia,6,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Uberlandia,7,ch_catalogo_guia,SMALLINT,RLE
+duckdb,duckdb_native_12,Uberlandia,8,ch_da_oferta,INTEGER,BitPacking
+duckdb,duckdb_native_12,Uberlandia,9,ch_max_financiavel,SMALLINT,RLE
+duckdb,duckdb_native_12,Uberlandia,10,ch_maxima_permitida,SMALLINT,RLE
+duckdb,duckdb_native_12,Uberlandia,11,ch_min_financiavel,SMALLINT,RLE
+duckdb,duckdb_native_12,Uberlandia,12,ch_minima_do_curso,SMALLINT,RLE
+duckdb,duckdb_native_12,Uberlandia,13,co_matricula_estudante,INTEGER,BitPacking
+duckdb,duckdb_native_12,Uberlandia,14,cod_da_unidade_de_ensino,INTEGER,BitPacking
+duckdb,duckdb_native_12,Uberlandia,15,cod_ibge_da_ue,INTEGER,RLE
+duckdb,duckdb_native_12,Uberlandia,16,cod_ibge_do_local_da_oferta,INTEGER,RLE
+duckdb,duckdb_native_12,Uberlandia,17,codigo_da_oferta,INTEGER,BitPacking
+duckdb,duckdb_native_12,Uberlandia,18,codigo_do_curso,INTEGER,BitPacking
+duckdb,duckdb_native_12,Uberlandia,19,comunidade_quilombola,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,20,cpf aluno,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,21,data de confirmacao,DATE,RLE
+duckdb,duckdb_native_12,Uberlandia,22,data de nascimento aluno,DATE,BitPacking
+duckdb,duckdb_native_12,Uberlandia,23,data_da_publicacao,DATE,Constant
+duckdb,duckdb_native_12,Uberlandia,24,data_de_conclusao,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,25,data_de_inicio,DATE,RLE
+duckdb,duckdb_native_12,Uberlandia,26,data_de_previsaode_termino,DATE,RLE
+duckdb,duckdb_native_12,Uberlandia,27,desempregado,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,28,ds_email,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,29,ds_identificador_turma,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,30,ds_tipo_beneficiario,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,31,dt_cadastro,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,32,ead,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,33,edicao_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,34,edital,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,35,eixo_tecnologico_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,36,eixo_tecnológico,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,37,escolaridade do aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,38,escolaridade_catalogo_guia,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,39,forma_ingresso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,40,instituicao,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,40,instituicao,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,41,mantenedora,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,42,municipio_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,43,municipio_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,44,no_dependencia_admin,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,45,no_modalidade,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,46,no_parceiro_demandante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,47,no_programa,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,48,no_sistema_ensino,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,49,no_subdependencia_admin,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,49,no_subdependencia_admin,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,50,nome aluno,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,51,nome da sit matricula (situacao detalhada),VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,52,nome_curso_catalogo_guia,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,53,nome_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,54,nome_da_uer,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,55,nome_do_curso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,56,nu_telefone,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,57,nu_telefone_celular,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,57,nu_telefone_celular,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,58,oferta_cadastro_online,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,59,pcd,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,60,populacao_campo,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,61,povo_indigena,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,62,seguro_desenprego,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,63,sexo do aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,64,situacao_da_turma,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,65,st_extemporaneo_matricula,BOOLEAN,RLE
+duckdb,duckdb_native_12,Uberlandia,66,st_extemporaneo_turma,BOOLEAN,RLE
+duckdb,duckdb_native_12,Uberlandia,67,st_financiavel,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,68,subtipo_curso,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,69,tipo_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,70,tipo_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,71,total_conf_freq_aluno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,72,total_freq_aluno,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Uberlandia,73,transferencia_renda,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,74,turno,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,75,uf_da_ue,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,76,uf_do_local_da_oferta,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,77,unidade_demandante,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,77,unidade_demandante,VARCHAR,FSST
+duckdb,duckdb_native_12,Uberlandia,78,vagas,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Uberlandia,79,valor_hora_aula_proposto,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Uberlandia,80,Calculation_838513978982854656,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,0,Calculation_-2642768498522718196,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,1,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,Wins,2,nABL1,"DECIMAL(4,2)",BitPacking
+duckdb,duckdb_native_12,Wins,3,nABL2,"DECIMAL(4,2)",BitPacking
+duckdb,duckdb_native_12,Wins,4,nABLF,"DECIMAL(4,2)",BitPacking
+duckdb,duckdb_native_12,Wins,5,nABOUT,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,6,nACL,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,7,nAE,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,8,nAFIN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,9,nAGE,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,10,nAODD,"DECIMAL(3,1)",BitPacking
+duckdb,duckdb_native_12,Wins,11,nBADCLASS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,12,nBADFAV,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,13,nBARN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,14,nBEATCLM,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,15,nBIGLOSER,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,16,nBLOWOUT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,17,nBTL,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,18,nBUGBOY,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,19,nC90X,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,20,nC90,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,21,nCHAOS,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,22,nCHG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,23,nCLASSFIT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,24,nCLASSX,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,25,nCLASS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,26,nCLA,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,27,nCLCH,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,28,nCLMVALUE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,29,nCLM,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,30,nCONT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,31,nCOUPLED,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,32,nCOURSE,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,33,nDIST,"DECIMAL(3,1)",RLE
+duckdb,duckdb_native_12,Wins,34,nDS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,35,nEDIF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,36,nEEN,"DECIMAL(4,2)",BitPacking
+duckdb,duckdb_native_12,Wins,37,nEPR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,38,nEPR_PAC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,39,nEPS365D,INTEGER,BitPacking
+duckdb,duckdb_native_12,Wins,40,nEPSLIFE,INTEGER,BitPacking
+duckdb,duckdb_native_12,Wins,41,nESHOCK,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,42,nEXA,"DECIMAL(6,2)",RLE
+duckdb,duckdb_native_12,Wins,43,nFAV1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,44,nFAV2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,45,nFC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,46,nFIRST_TAG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,47,nFIT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,48,nFLD,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,49,nFPSX,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,50,nFR1,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,51,nFR2,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,52,nFR3,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,53,nFTI,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,54,nFTS,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,55,nGATEBRK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,56,nGELDING,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,57,nGOODIES,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,58,nH4C,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,59,nHAG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,60,nHTR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,61,nIDX,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,62,nIMP1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,63,nIMP2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,64,nIMP3,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,65,nIMP4,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,66,nIMPROVE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,67,nJ14ST,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,68,nJ14WN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,69,nJKCH,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,70,nJKYHST,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,71,nJKYHW,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,72,nJKY,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,73,nK2LINE,SMALLINT,Constant
+duckdb,duckdb_native_12,Wins,74,nK2,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,75,nKAT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,76,nKENTENDER,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,77,nKEY,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,78,nKGAPX,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,79,nKGAP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,80,nKLINE,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,81,nKMS,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,82,nKMSeCHART,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,83,nKPROB1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,84,nKPROB2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,85,nKPROB3,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,86,nK,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,87,nLAY90,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,88,nLAYZONE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,89,nLAY,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,90,nLCLAS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,91,nLCSF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,92,nLDIST,"DECIMAL(3,1)",BitPacking
+duckdb,duckdb_native_12,Wins,93,nLDR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,94,nLFIN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,95,nLFST,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,96,nLFWP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,97,nLIVEA,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,98,nLIVEL,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,99,nLIVEP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,100,nLIVES,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,101,nLODDS,"DECIMAL(4,2)",BitPacking
+duckdb,duckdb_native_12,Wins,102,nLONERAZOR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,103,nLONESP,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,104,nLONG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,105,nLPER,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,106,nLPOS1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,107,nLRACE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,108,nLSHOCK,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,109,nLSURF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,110,nLTOP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,111,nLUCK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,112,nLWD,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,113,nLWINF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,114,nLWINS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,115,nLoneDD,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,116,nLoneKAT6,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,117,nLoneLUCK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,118,nMAXWINSX,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,119,nMLFAV,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,120,nMLO,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,121,nNEG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,122,nOD_PICK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,123,nOD_SCORE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,124,nOFFGRASS,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,125,nOTX,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,126,nOUTLOOK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,127,nPACE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,128,nPAC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,129,nPDIF,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,130,nPED,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,131,nPER,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,132,nPFIG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,133,nPNT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,134,nPPO,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,135,nPRICEPLAY,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,136,nPROB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,137,nPSCN,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,138,nPSF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,139,nPURS,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,140,nQFIVES,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,141,nQFLAG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,142,nQPC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,143,nQP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,144,nQT3,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,145,nRACE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,146,nRAZOR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,147,nRS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,148,nRULE50,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,149,nRUNKS,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,150,nSCRATCHES,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,151,nSEX,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,152,nSLASH,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,153,nSTB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,154,nSTR,INTEGER,RLE
+duckdb,duckdb_native_12,Wins,155,nSUPERF,DOUBLE,RLE
+duckdb,duckdb_native_12,Wins,156,nSUPERS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,157,nSURF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,158,nTAN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,159,nTJ,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,160,nTL30S,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,161,nTL30W,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,162,nTOPPACAGO,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,163,nTOPPAC,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,164,nTOPPERAGO,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,165,nTOPPER,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,166,nTOPSHFAGO,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,167,nTOPSHF,"DECIMAL(3,1)",BitPacking
+duckdb,duckdb_native_12,Wins,168,nTOUR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,169,nTRCH,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,170,nTRI,DOUBLE,RLE
+duckdb,duckdb_native_12,Wins,171,nTRNHST,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,172,nTRNHW,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,173,nTRN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,174,nTRN_BUZZ,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,175,nTRN_ROIX,"DECIMAL(5,4)",BitPacking
+duckdb,duckdb_native_12,Wins,176,nTopKAT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,177,nUNK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,178,nVBET,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,179,nVEL,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,180,nVI,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,181,nVK1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,182,nWEIGHT,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,183,nWGTCH,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,184,nWINDAYSX,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,185,nWINTYPE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,186,nWKSC,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,187,nWMAR,"DECIMAL(4,2)",RLE
+duckdb,duckdb_native_12,Wins,188,nWSR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,189,nXADJ,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,190,nXBUY,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,191,nXFAV,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,192,nXPROB,"DECIMAL(6,4)",BitPacking
+duckdb,duckdb_native_12,Wins,193,nXSELL,"DECIMAL(7,4)",BitPacking
+duckdb,duckdb_native_12,Wins,194,rACL,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,195,rAODD,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,196,rAP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,197,rC90,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,198,rCLASS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,199,rEPS365D,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,200,rEPSLIFE,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,201,rEP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,202,rFC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,203,rFR1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,204,rFR2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,205,rFR3,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,206,rFX,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,207,rHTR,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,208,rIMP1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,209,rIMP2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,210,rIMP3,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,211,rIMP4,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,212,rJKY,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,213,rK2,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,214,rKMS,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,215,rK,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,216,rLCSF,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,217,rLP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,218,rMLO,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,219,rOTX,SMALLINT,RLE
+duckdb,duckdb_native_12,Wins,220,rPAC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,221,rPED,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,222,rPER,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,223,rPFIG,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,224,rPROB,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,225,rPSCN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,226,rSP,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,227,rTRN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,228,rVEL,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,229,rWKSC,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,230,tCLASS,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,231,tDATE,DATE,RLE
+duckdb,duckdb_native_12,Wins,232,tFCID,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,232,tFCID,VARCHAR,FSST
+duckdb,duckdb_native_12,Wins,233,tHOR,VARCHAR,FSST
+duckdb,duckdb_native_12,Wins,234,tJKY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,235,tLCLASS,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,236,tLDATE,DATE,BitPacking
+duckdb,duckdb_native_12,Wins,237,tLJKY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,238,tLRACETEXT,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,239,tLTRIP,VARCHAR,FSST
+duckdb,duckdb_native_12,Wins,240,tLTRK,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,241,tLTRN,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,242,tOWNER,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,242,tOWNER,VARCHAR,FSST
+duckdb,duckdb_native_12,Wins,243,tPGM,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,244,tPOST,TIME,RLE
+duckdb,duckdb_native_12,Wins,245,tTPG,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,246,tTRK,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,247,tTRN,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,248,tWK1,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,249,tWK2,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,250,tWK3,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,251,tWK4,VARCHAR,Dictionary
+duckdb,duckdb_native_12,Wins,252,xFIN,SMALLINT,BitPacking
+duckdb,duckdb_native_12,Wins,253,xPLA,"DECIMAL(4,1)",BitPacking
+duckdb,duckdb_native_12,Wins,254,xPL,SMALLINT,Constant
+duckdb,duckdb_native_12,Wins,255,xSHO,"DECIMAL(4,1)",BitPacking
+duckdb,duckdb_native_12,Wins,256,xWIN,"DECIMAL(4,1)",RLE
+duckdb,duckdb_native_12,YaleLanguages,0,BEGIN_PUB_DATE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,1,BIB_FORMAT,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,2,BIB_ID,INTEGER,BitPacking
+duckdb,duckdb_native_12,YaleLanguages,3,CALL_NO_TYPE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,4,CHARGE_DATE,TIMESTAMP,RLE
+duckdb,duckdb_native_12,YaleLanguages,5,CLASS_BROAD,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,6,CLASS_GROUP,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,7,CLASS_LETTER,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,7,CLASS_LETTER,VARCHAR,FSST
+duckdb,duckdb_native_12,YaleLanguages,8,CLASS_NARROW,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,9,DATE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,10,DATE_RANGE_CENTURY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,11,DATE_RANGE_DECADE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,12,DISCHARGE_DATE,TIMESTAMP,RLE
+duckdb,duckdb_native_12,YaleLanguages,13,ID,SMALLINT,BitPacking
+duckdb,duckdb_native_12,YaleLanguages,14,ID1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,YaleLanguages,15,LANGUAGE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,16,LC_BROAD,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,17,LC_NARROW,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,17,LC_NARROW,VARCHAR,FSST
+duckdb,duckdb_native_12,YaleLanguages,18,MFHD_ID,INTEGER,BitPacking
+duckdb,duckdb_native_12,YaleLanguages,19,Number of Records,SMALLINT,Constant
+duckdb,duckdb_native_12,YaleLanguages,20,PATRON_GROUP_CODE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,21,PATRON_GROUP_DISPLAY,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,22,PATRON_GROUP_ID,SMALLINT,BitPacking
+duckdb,duckdb_native_12,YaleLanguages,23,PATRON_GROUP_ID1,SMALLINT,BitPacking
+duckdb,duckdb_native_12,YaleLanguages,24,PATRON_GROUP_NAME,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,25,PATRON_TYPE (Pseudo vs Patron),VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,26,PLACE_CODE,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,27,Patron Group,VARCHAR,Dictionary
+duckdb,duckdb_native_12,YaleLanguages,28,RENEWAL_COUNT,SMALLINT,RLE
+duckdb,duckdb_native_12,YaleLanguages,29,Calculation_1810108111146429,VARCHAR,Dictionary

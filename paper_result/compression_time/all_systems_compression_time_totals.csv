@@ -1,0 +1,2 @@
+fastlanes_total_ms,btrblocks_total_ms,duckdb_total_ms,parquet_snappy_ms,parquet_zstd_ms
+81341.63559999998,111091.39199999999,20347.818666666666,5867.070000000001,6927.519999999999

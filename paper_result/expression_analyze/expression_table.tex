@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\centering
+\begin{tabular}{l r r}
+\toprule
+Expression & FileSize & Decompression Time \\
+  & Improvement & Improvement \\
+\midrule
+Dictionary & +42.36\% & +44.19\% \\
+DELTA & +5.92\% & -1.91\% \\
+Equality & +4.70\% & +2.66\% \\
+ALP & +4.36\% & -7.28\% \\
+FSST & +3.86\% & +3.84\% \\
+Patch & +2.51\% & -7.11\% \\
+FFOR & +1.30\% & +4.48\% \\
+One-to-One Map & +1.17\% & +9.47\% \\
+FSST12 & +0.84\% & +2.62\% \\
+Cast & +0.78\% & +10.16\% \\
+RLE & +0.69\% & +6.65\% \\
+CROSS RLE & +0.65\% & +16.27\% \\
+ALP RD & +0.57\% & -2.30\% \\
+Frequency & +0.09\% & +2.06\% \\
+Constant & +0.00\% & +2.92\% \\
+\bottomrule
+\end{tabular}
+\caption{Comparison of file size and decompression time improvements (sorted by size difference).}
+\label{tab:compression-decomptime-diff}
+\end{table}
