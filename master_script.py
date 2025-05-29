@@ -48,7 +48,7 @@ def setup_workspace():
     workspace = Path.cwd()
     repos = [
         ("https://github.com/cwida/FastLanes.git", "fastlanes", "release_v0.1"),
-        ("https://github.com/cwida/FastLanes_Data.git", "data_repo", "add_yaml_files_for_btrblock"),
+        ("https://github.com/cwida/FastLanes_Data.git", "data_repo", "main"),
         ("https://github.com/cwida/btrblocks-vldb2025.git", "btrblocks", "main"),
         ("https://github.com/cwida/duckdb-vldb2025.git", "duckdb", "main"),
     ]
