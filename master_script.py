@@ -143,22 +143,22 @@ def clone_or_update_repo(repo_url, repo_dir, branch_or_commit, log_file_path):
 def run_scripts(scripts_dir, log_dir):
     """Run scripts and store their output in log files."""
     scripts = [
-        "bench_compression_time_duckdb.py",
-        "bench_compression_time_parquet.py",
-        "compress_public_bi_duckdb.py",
+        # "bench_compression_time_duckdb.py",
+        # "bench_compression_time_parquet.py",
+        # "compress_public_bi_duckdb.py",
         "compress_public_bi_duckdb_parquet.py",
-        "btrblocks_total.py",
-        "plot_compression_ratio.py",
-        "plot_decompression_time.py",
-        "plot_random_access.py",
-        "plot_accuracy_over_rowgroup.py",
-        "plot_rowgroup_decoding_per_ms.py",
-        "plot_sampling_benchmark.py",
-        "plot_sampling_benchmark_with_both_layouts.py",
-        "plot_expression_analyzed.py",
-        "plot_simd_benchmark.py",
-        "report_average_compression_speed.py",
-        "popularity.py",
+        # "btrblocks_total.py",
+        # "plot_compression_ratio.py",
+        # "plot_decompression_time.py",
+        # "plot_random_access.py",
+        # "plot_accuracy_over_rowgroup.py",
+        # "plot_rowgroup_decoding_per_ms.py",
+        # "plot_sampling_benchmark.py",
+        # "plot_sampling_benchmark_with_both_layouts.py",
+        # "plot_expression_analyzed.py",
+        # "plot_simd_benchmark.py",
+        # "report_average_compression_speed.py",
+        # "popularity.py",
     ]
 
     for script_name in scripts:
