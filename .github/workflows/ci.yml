@@ -32,3 +32,14 @@ jobs:
       # 4) Run your main script via your Makefile
       - name: Run script
         run: make run
+
+      # 5) If anything failed, dump all logs to the console
+      - name: Show CI logs on failure
+        if: ${{ failure() }}
+        run: |
+          echo "===== CI log dump ====="
+          # find all .log files under logs/ and print them
+          find logs -type f -name "*.log" | while read log; do
+            echo "---- $log ----"
+            cat "$log"
+          done
