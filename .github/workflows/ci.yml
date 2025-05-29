@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Pull down your repo
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      # 2) Setup Python (needed so `python3 -m venv` works)
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 3) Install dependencies via your Makefile
+      - name: Install dependencies
+        run: make install
+
+      # 4) Run your main script via your Makefile
+      - name: Run script
+        run: make run
