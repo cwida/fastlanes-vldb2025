@@ -90,27 +90,35 @@ def save_duckdb_table_as_parquet(conn, table_name: str, out_prefix: str):
 
 def process_table(csv_path: str, table_name: str, out_dir: str, accumulator: list):
     """
-    - Loads CSV (auto schema) into DuckDB table
-    - Calls save_duckdb_table_as_parquet(...)
-    - Appends each result row to `accumulator` list
+    - Attempts to load CSV (auto schema) into DuckDB table
+    - On success, calls save_duckdb_table_as_parquet(...)
+    - Appends each result row to `accumulator`
+    - On CSV-sniff failure, logs and skips the table
     """
     conn = duckdb.connect()
     conn.execute("PRAGMA disable_progress_bar")
-    conn.execute(f"""
-        CREATE OR REPLACE TABLE "{table_name}" AS
-        SELECT *
-        FROM READ_CSV_AUTO(
-            '{csv_path}',
-            sep='|',
-            header=False,
-            nullstr='null',
-            ignore_errors=False,
-            sample_size=-1,
-            quote='',
-            escape='\\'
-        );
-    """)
-    print(f"✅ Loaded '{table_name}'")
+
+    try:
+        conn.execute(f"""
+            CREATE OR REPLACE TABLE "{table_name}" AS
+            SELECT *
+            FROM READ_CSV_AUTO(
+                '{csv_path}',
+                sep='|',
+                header=False,
+                nullstr='null',
+                ignore_errors=False,
+                sample_size=-1,
+                quote='',
+                escape='\\'
+            );
+        """)
+        print(f"✅ Loaded '{table_name}'")
+    except duckdb.InvalidInputException as e:
+        print(f"❌ Skipping '{table_name}': could not auto-detect CSV schema ({e})")
+        conn.close()
+        return
+
     out_prefix = os.path.join(out_dir, table_name)
     rows = save_duckdb_table_as_parquet(conn, table_name, out_prefix)
     accumulator.extend(rows)
@@ -123,12 +131,18 @@ def process_table(csv_path: str, table_name: str, out_dir: str, accumulator: lis
 def public_bi():
     results = []
     out_dir = os.path.join('..', 'result', 'compression_ratio', 'public_bi')
+    os.makedirs(out_dir, exist_ok=True)
+
     for tbl in PublicBI.table_list:
         csv = PublicBI.get_file_path(tbl)
-        process_table(csv, tbl, out_dir, results)
+        try:
+            process_table(csv, tbl, out_dir, results)
+        except Exception as e:
+            # catch any other errors to keep going
+            print(f"❌ Error processing PublicBI '{tbl}': {e}")
+            continue
 
     df = pd.DataFrame(results)
-    os.makedirs(out_dir, exist_ok=True)
     csv_out = os.path.join(out_dir, 'parquet_compressed_with_duckdb_parquet.csv')
     df.to_csv(csv_out, index=False)
     print(f"✅ PublicBI results written to {csv_out}")
@@ -140,12 +154,17 @@ def public_bi():
 def nextia_jd():
     results = []
     out_dir = os.path.join('..', 'result', 'compression_ratio', 'nextia_jd')
+    os.makedirs(out_dir, exist_ok=True)
+
     for tbl in NextiaJD.table_list:
         csv = NextiaJD.get_file_path(tbl)
-        process_table(csv, tbl, out_dir, results)
+        try:
+            process_table(csv, tbl, out_dir, results)
+        except Exception as e:
+            print(f"❌ Error processing NextiaJD '{tbl}': {e}")
+            continue
 
     df = pd.DataFrame(results)
-    os.makedirs(out_dir, exist_ok=True)
     csv_out = os.path.join(out_dir, 'parquet_compressed_with_duckdb_parquet.csv')
     df.to_csv(csv_out, index=False)
     print(f"✅ NextiaJD results written to {csv_out}")
@@ -155,5 +174,7 @@ def nextia_jd():
 # 5) Entrypoint
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
-    # public_bi()
+    # To run NextiaJD tables:
     nextia_jd()
+    # To run PublicBI tables:
+    public_bi()
