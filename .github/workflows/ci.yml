@@ -1,14 +1,8 @@
 name: CI
 
 on:
-  push:
-    branches:
-      - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
+  push:    # runs on any branch push
+  pull_request:  # runs on any PR against any branch
 
 jobs:
   build:
@@ -19,26 +13,34 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
 
-      # 2) Setup Python (needed so `python3 -m venv` works)
+      # 2) Set up Python 3.x
       - name: Set up Python 3.x
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # 3) Install dependencies via your Makefile
+      # 3) Cache pip packages
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-${{ hashFiles('Makefile') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # 4) Install into your .venv (including duckdb via Makefile)
       - name: Install dependencies
         run: make install
 
-      # 4) Run your main script via your Makefile
+      # 5) Run your main script via the venv
       - name: Run script
         run: make run
 
-      # 5) If anything failed, dump all logs to the console
+      # 6) If anything failed, dump all logs to the console
       - name: Show CI logs on failure
         if: ${{ failure() }}
         run: |
           echo "===== CI log dump ====="
-          # find all .log files under logs/ and print them
           find logs -type f -name "*.log" | while read log; do
             echo "---- $log ----"
             cat "$log"

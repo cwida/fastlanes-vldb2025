@@ -155,5 +155,5 @@ def nextia_jd():
 # 5) Entrypoint
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
-    public_bi()
+    # public_bi()
     nextia_jd()
