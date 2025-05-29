@@ -1,5 +1,3 @@
-# Makefile
-
 # Name of the venv folder
 VENV := .venv
 
@@ -19,10 +17,10 @@ all: run
 venv:
 	python3 -m venv $(VENV)
 
-# Install dependencies into the venv
+# Install dependencies into the venv, pinning duckdb to 1.2.x (>=1.2.0,<1.3.0)
 install: venv
 	$(PIP) install --upgrade pip
-	$(PIP) install pandas
+	$(PIP) install pandas duckdb~=1.2.0
 
 # Run your main script using the venv’s python
 run: install
