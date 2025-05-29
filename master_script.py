@@ -146,7 +146,7 @@ def run_scripts(scripts_dir, log_dir):
         # "bench_compression_time_duckdb.py",
         # "bench_compression_time_parquet.py",
         # "compress_public_bi_duckdb.py",
-        "compress_public_bi_duckdb_parquet.py",
+        "benchmark_duckdb_parquet_compression.py",
         # "btrblocks_total.py",
         # "plot_compression_ratio.py",
         # "plot_decompression_time.py",
