@@ -47,7 +47,7 @@ def setup_workspace():
     colored_echo("green", "Setting up workspace variables...")
     workspace = Path.cwd()
     repos = [
-        ("https://github.com/cwida/FastLanes.git", "fastlanes", "release_v0.1"),
+        ("https://github.com/cwida/FastLanes.git", "fastlanes", "dev"),
         ("https://github.com/cwida/FastLanes_Data.git", "data_repo", "main"),
         ("https://github.com/cwida/btrblocks-vldb2025.git", "btrblocks", "main"),
         ("https://github.com/cwida/duckdb-vldb2025.git", "duckdb", "main"),
@@ -143,6 +143,7 @@ def clone_or_update_repo(repo_url, repo_dir, branch_or_commit, log_file_path):
 def run_scripts(scripts_dir, log_dir):
     """Run scripts and store their output in log files."""
     scripts = [
+        "run_fastlanes.py",
         "bench_compression_time_duckdb.py",
         "bench_compression_time_parquet.py",
         "compress_public_bi_duckdb.py",
