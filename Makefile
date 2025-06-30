@@ -1,8 +1,8 @@
 # Name of the venv folder
-VENV := .venv
+VENV    := .venv
 
 # Python and pip inside the venv
-PYTHON := $(VENV)/bin/python
+PYTHON  := $(VENV)/bin/python
 PIP     := $(VENV)/bin/pip
 
 # Your entry‐point script
@@ -22,9 +22,10 @@ install: venv
 	$(PIP) install --upgrade pip
 	$(PIP) install pandas duckdb~=1.2.0
 
-# Run your main script using the venv’s python
+# Run your main script using the venv’s python (with venv “activated” so that
+# any 'python3' in subprocesses also refers to the same interpreter)
 run: install
-	$(PYTHON) $(SCRIPT)
+	. $(VENV)/bin/activate && python3 $(SCRIPT)
 
 # Remove the venv (and start fresh)
 clean:
