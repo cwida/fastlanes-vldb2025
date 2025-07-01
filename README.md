@@ -27,6 +27,41 @@ and invoke its benchmarks in sequence:
 
 ---
 
+## FastLanes CMake Benchmark Targets & Paper Mapping
+| CMake Target                     | Paper Table / Figure      |
+|----------------------------------|---------------------------|
+| **bench_compression_ratio**      | Table 3                   |
+| **benchmark_decompression_time** | Table 4 (decoding)        |
+| **bench_compression_time**       | Table 4 (encoding)        |
+| **benchmark_random_access**      | Table 5                   |
+| **micro_benchmark_decompression**| Table 6                   |
+| **bench_sample_size**            | Figure 2                  |
+
+
+> **Note:** These CMake targets run *only* the FastLanes side of each experiment—comparative numbers (Parquet, BtrBlocks, DuckDB) are produced by their own benchmark suites in the other repos.
+
+Below are the **CMake target names** (as defined in the `fastlanes` repo) for each FastLanes benchmark executable. Running `<target>` executes its FastLanes-only measurement; the description shows which Table or Figure in the VLDB ’25 paper the results feed into:
+
+- **bench_compression_ratio**  
+  Runs the FastLanes compression‐ratio experiment → produces data for **Table 3**: Compression ratios of file formats relative to FastLanes on the Public BI and TPC-H datasets.
+
+- **benchmark_decompression_time**  
+  Runs the FastLanes end‐to‐end decompression throughput experiment → produces data for **Table 4 (decoding)**: Row-groups decoded per second for FastLanes vs. Parquet, BtrBlocks, and DuckDB.
+
+- **bench_compression_time**  
+  Runs the FastLanes compression‐time experiment → produces data for **Table 4 (encoding)**: CPU time (ms/row-group) to compress into FastLanes, compared to other formats.
+
+- **benchmark_random_access**  
+  Runs the FastLanes random‐access latency experiment → produces data for **Table 5**: Latency (ms per value) of random value retrieval across file formats.
+
+- **micro_benchmark_decompression**  
+  Runs the FastLanes SIMD‐accelerated decompression micro‐benchmark → produces data for **Table 6**: Total decoding time under SSE, AVX2, and AVX-512 flags.
+
+- **bench_sample_size**  
+  Runs the FastLanes sample‐size sensitivity experiment → produces data for **Figure 2**: Accuracy of compression-ratio estimates vs. sample-index size (three-way sampling achieves > 99 % accuracy).
+
+---
+
 ## 2 Quick Start
 
 Choose between the one-step `make` workflow or the manual setup below.
